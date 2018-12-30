@@ -5,8 +5,12 @@ This repository contain all of my answer on various code contest or exerice plat
 * checkio/py/ - py.CheckiO - https://py.checkio.org/
 * codechef/ - CodeChef - https://www.codechef.com/
 * projecteuler/ - Project Euler - https://projecteuler.net/
+
 ---
-## September 2018
-I'm losing some of my answer files
+## Update
+
+**September 2018**
+I'm losing some of my answer files ;-;
 ---
+
 Feel free to contribute to this repository.
