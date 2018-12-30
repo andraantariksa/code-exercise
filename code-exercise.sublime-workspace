@@ -1,0 +1,959 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inp",
+				"inputCoorY"
+			],
+			[
+				"inpu",
+				"inputCoorY"
+			],
+			[
+				"in",
+				"inputCoor"
+			],
+			[
+				"v",
+				"vTokens\tstd::vector<int> vTokens"
+			],
+			[
+				"nu",
+				"numberStateTemp\tint numberStateTemp"
+			],
+			[
+				"number",
+				"numberStateTemp\tint numberStateTemp"
+			],
+			[
+				"push",
+				"push_back\tvoid push_back(value_type &&__x)"
+			],
+			[
+				"se",
+				"segment2"
+			],
+			[
+				"wo",
+				"wordCount"
+			],
+			[
+				"stateC",
+				"stateComplete\tbool stateComplete"
+			],
+			[
+				"re",
+				"regex\tstandard header (since c++11)"
+			],
+			[
+				"total",
+				"totalIter"
+			],
+			[
+				"state",
+				"stateAsterisk"
+			],
+			[
+				"stat",
+				"stateUnderscore"
+			],
+			[
+				"i_",
+				"i_B"
+			],
+			[
+				"arra",
+				"arraySetLen"
+			],
+			[
+				"r_",
+				"r_circ_sm"
+			],
+			[
+				"r_c",
+				"r_circ_bg"
+			],
+			[
+				"A_c",
+				"A_circ_bg\tdouble A_circ_bg"
+			],
+			[
+				"A_",
+				"A_circ_sm"
+			],
+			[
+				"min",
+				"minPos\tchar minPos"
+			],
+			[
+				"rem",
+				"removeDigit\tint removeDigit"
+			],
+			[
+				"num",
+				"numberVector"
+			],
+			[
+				"beg",
+				"begin\titerator begin()"
+			],
+			[
+				"co",
+				"countOpenedDoor"
+			],
+			[
+				"iter",
+				"iterateRoom2"
+			],
+			[
+				"room",
+				"room"
+			],
+			[
+				"roo",
+				"roomCount"
+			],
+			[
+				"input",
+				"inputString"
+			],
+			[
+				"end",
+				"endL"
+			],
+			[
+				"full",
+				"fullL"
+			],
+			[
+				"fu",
+				"fullString"
+			],
+			[
+				"numb",
+				"number2"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"ve",
+				"vector\tstandard header"
+			],
+			[
+				"char",
+				"charArray"
+			],
+			[
+				"st",
+				"string\tstandard header"
+			],
+			[
+				"io",
+				"iostream\tstandard header"
+			],
+			[
+				"fibo",
+				"fibonacci"
+			],
+			[
+				"mon",
+				"moneyDenominationTotal"
+			],
+			[
+				"mo",
+				"moneyDenominationTotal"
+			],
+			[
+				"pri",
+				"primeFactor"
+			],
+			[
+				"pr",
+				"primeFactor"
+			],
+			[
+				"com",
+				"compared_dict2"
+			],
+			[
+				"stdl",
+				"cstdlib\tstandard header"
+			],
+			[
+				"i",
+				"inputInt2"
+			],
+			[
+				"neg",
+				"negativeTotal"
+			],
+			[
+				"pos",
+				"positiveTotal"
+			],
+			[
+				"int",
+				"input"
+			],
+			[
+				"mat",
+				"cmath\tstandard header"
+			],
+			[
+				"rig",
+				"rightState"
+			],
+			[
+				"be",
+				"before"
+			],
+			[
+				"fib",
+				"fibonacciCalls"
+			],
+			[
+				"page",
+				"pageId"
+			],
+			[
+				"Ti",
+				"TiList"
+			],
+			[
+				"ma",
+				"main\tmain()"
+			],
+			[
+				"ios",
+				"iostream\tstandard header"
+			],
+			[
+				"entr",
+				"entriList"
+			],
+			[
+				"requ",
+				"requestsSession"
+			],
+			[
+				"tim",
+				"timeToGrowInt"
+			],
+			[
+				"time",
+				"timeToGrow"
+			],
+			[
+				"gr",
+				"growMod"
+			],
+			[
+				"vec",
+				"vector\tstandard header"
+			],
+			[
+				"inc",
+				"inc\t#include <…>"
+			],
+			[
+				"grow",
+				"growDiv"
+			],
+			[
+				"wor",
+				"wordInformation"
+			],
+			[
+				"id",
+				"idList"
+			],
+			[
+				"ent",
+				"entriKBBI"
+			],
+			[
+				"req",
+				"requestsSession"
+			],
+			[
+				"def",
+				"definition"
+			],
+			[
+				"lo",
+				"loginState"
+			],
+			[
+				"log",
+				"loginData"
+			],
+			[
+				"spl",
+				"splittedResponse"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "toki/[Versi Lama] Training Gate TOKI Learning Center/Bab 8. Soal-Soal Menantang!/8A. Matematika/C.cpp",
+			"settings":
+			{
+				"buffer_size": 790,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nEasyClangComplete\n-----------------\n\n  Version 5.6.1\n  =============\n  \n  Merry Christmas!\n  ----------------\n  \n  Improvements and fixes:\n  -----------------------\n  - Further fix to ensure we can find libclang on Fedora, thanks @KingKili\n  - Fix behavior when user provided \"libclang_path\" is a folder\n  - Improve documentation on the usage of libclang\n  \n  Support the development!\n  ------------------------\n  💜 this plugin? Please consider buying me a 🍵\n  https://github.com/niosus/EasyClangComplete#support-it\n  \n  Thanks to all the awesome contributors!\n  If you add bounties to Bountysource you can support them too!\n  https://www.bountysource.com/teams/easyclangcomplete\n  \n  Become a backer on Open Collective!\n  https://opencollective.com/EasyClangComplete#backers\n  \n  I you use this plugin in a company, push to become a sponsor!\n  https://opencollective.com/EasyClangComplete#sponsor\n  \n  This plugin took a significant amount of effort. It is available and will always\n  be available for free, both as freedom and as beer.\n  \n  If you appreciate it - support it. How much would you say it is worth to you?\n\n  Version 5.6.0\n  =============\n  \n  Deprecated settings:\n  --------------------\n  - `use_target_compiler_built_in_flags` removed\n  - `target_<xxx>_compiler` replaced by `target_compilers` setting\n  \n  Improvements and fixes:\n  -----------------------\n  - New setting: `target_compilers` that replaces old `target_<xxx>_compiler` to\n    streamline flag configuration\n  - New setting: `show_index_references` set by default to `true` used to enable\n    showing symbol references when showing an info popup\n  - Add suffix used on Fedora to search for libclang, thanks @KingKili\n  - [dev] Add a test to ensure that all settings are covered in the documentation\n  \n  Support the development!\n  ------------------------\n  💜 this plugin? Please consider buying me a 🍵\n  https://github.com/niosus/EasyClangComplete#support-it\n  \n  Thanks to all the awesome contributors!\n  If you add bounties to Bountysource you can support them too!\n  https://www.bountysource.com/teams/easyclangcomplete\n  \n  Become a backer on Open Collective!\n  https://opencollective.com/EasyClangComplete#backers\n  \n  I you use this plugin in a company, push to become a sponsor!\n  https://opencollective.com/EasyClangComplete#sponsor\n  \n  This plugin took a significant amount of effort. It is available and will always\n  be available for free, both as freedom and as beer.\n  \n  If you appreciate it - support it. How much would you say it is worth to you?\n\n\nSublimeLinter\n-------------\n\n  SublimeLinter 4.9\n  =================\n  \n  You can now filter errors using regexes.\n  \n  If your linter doesn't allow you to suppress some error types in its\n  configuration, or you just want your editor to be silent about some errors,\n  you can now filter in SublimeLinter. To do so, set the \"filter_errors\" setting\n  for a specific linter.\n  \n  More information:\n  http://www.sublimelinter.com/en/stable/linter_settings.html\n",
+			"settings":
+			{
+				"buffer_size": 3057,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/andraantariksa/Projects/code-exercise"
+	],
+	"file_history":
+	[
+		"/home/andraantariksa/Projects/code-exercise/uri/1018.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2651.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2692.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1091.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1216.cpp.undone",
+		"/home/andraantariksa/Projects/code-exercise/uri/1089.cpp.re",
+		"/home/andraantariksa/Projects/code-exercise/uri/2253.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2691.cpp.undone",
+		"/home/andraantariksa/Projects/code-exercise/uri/1087.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2722.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2728.cpp.undone",
+		"/home/andraantariksa/Projects/code-exercise/uri/1581.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2484.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2728.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2728",
+		"/home/andraantariksa/Projects/code-exercise/uri/2694.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2557.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1607.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1239.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1238.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1263.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1273.cpp",
+		"/home/andraantariksa/Projects/code-exercise/spoj/ADDREV.rs",
+		"/home/andraantariksa/Projects/code-exercise/uri/1249.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1241.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1253.cpp",
+		"/home/andraantariksa/2.c",
+		"/home/andraantariksa/test.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1219.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1084.undone.cpp",
+		"/home/andraantariksa/Projects/oni/onivim.io/src/pages/Features.tsx",
+		"/home/andraantariksa/Projects/code-exercise/uri/1029.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1075.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1078.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1071.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1046.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1049.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1073.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1074.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1045.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1072.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1048.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1042.cpp",
+		"/home/andraantariksa/test.rs",
+		"/home/andraantariksa/Projects/code-exercise/toki/TOKI Regular Open Contest #3 November 2018/B.py",
+		"/home/andraantariksa/Projects/code-exercise/toki/TOKI Regular Open Contest #3 November 2018/A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/TOKI Regular Open Contest #2 Agustus 2018/A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/TOKI Regular Open Contest #3 November 2018/D.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1551.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1212.cpp",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/DocBlockr/README.md",
+		"/home/andraantariksa/Projects/web-design/index.html",
+		"/home/andraantariksa/Projects/code-exercise/door.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1871.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1214.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1272.cpp",
+		"/home/andraantariksa/Projects/web-design/page2.html",
+		"/home/andraantariksa/Projects/code-exercise/uri/1240.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1170.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2674.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2137.cpp",
+		"/home/andraantariksa/Projects/t.cpp",
+		"/home/andraantariksa/Projects/t.py",
+		"/home/andraantariksa/Projects/code-exercise/uri/2802.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2721.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2846.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2850.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2702.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2780.cpp",
+		"/home/andraantariksa/Projects/code-exercise/code-exercise.sublime-project",
+		"/home/andraantariksa/Projects/code-exercise/uri/1017.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1037.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1035.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1036.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/1221.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2859.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2863.py",
+		"/home/andraantariksa/Projects/code-exercise/checkio/py/verify-anagrams.py",
+		"/home/andraantariksa/Projects/t.c",
+		"/home/andraantariksa/Projects/t3.cpp",
+		"/home/andraantariksa/Projects/t2.cpp",
+		"/home/andraantariksa/Projects/t4.cpp",
+		"/home/andraantariksa/Projects/code-exercise/uri/2717.py",
+		"/home/andraantariksa/Projects/code-exercise/uri/2762.py",
+		"/home/andraantariksa/Projects/code-exercise/uri/1051.py",
+		"/home/andraantariksa/Projects/code-exercise/uri/1016.py",
+		"/home/andraantariksa/Projects/code-exercise/uri/1050.py",
+		"/home/andraantariksa/Projects/code-exercise/uri/1015.py",
+		"/home/andraantariksa/Projects/code-exercise/README.md",
+		"/tmp/fz3temp-2/do2.py",
+		"/home/andraantariksa/Projects/kbbi/scrapper/do2.py",
+		"/home/andraantariksa/Projects/kbbi/scrapper/do3.py",
+		"/home/andraantariksa/Projects/kbbi/scrapper/entriKBBI.py",
+		"/home/andraantariksa/Projects/kbbi/scrapper/do.py",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/content/blog/2018-10-28-migrasi-ke-hugo.md",
+		"/home/andraantariksa/Projects/kbbi/README.md",
+		"/home/andraantariksa/Projects/kbbi/scrapper/scrape.py",
+		"/home/andraantariksa/Projects/kbbi/scrapper/data/data.json",
+		"/home/andraantariksa/Projects/kbbi/scrapper/data/X.json",
+		"/home/andraantariksa/Projects/kbbi/scrapper/data.json",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/config.toml",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/_default/single.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/partials/post-header.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/content/blog/2018-10-22-perbedaan-operator-logika-is-dan-pada-python.md",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/static/css/main.css",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/partials/post-card.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/partials/tags.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/partials/site-scripts.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/public/index.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/_default/baseof.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/partials/footer.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/post/config.toml",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/post/public/blog/index.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/post/themes/AllinOne/layouts/partials/post-card.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/post/themes/AllinOne/layouts/partials/site-navbar.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/main/content/_index.md",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/main/config.toml",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/exampleSite/content/blog/2018-08/blog养成记14-让同页滚动更平滑.md",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/partials/homepage-header.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/partials/page-heading.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/partials/page-header.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/partials/head.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/public/blog/page/10/index.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/public/blog/page/1/index.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/index.html",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/content/blog/2018-03-12-pencarian-passion-hidup.md",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/content/blog/2018-10-15-.md",
+		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/content/about/_index.md"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"amount",
+			"cobol[i]",
+			"cobolCapital[i]",
+			"cobol[i]",
+			"std::strcmp\\(i, \"(\\w)\"\\)",
+			"std::strcmp\\(i, \"\\w\"\\)",
+			"std::strcmp(i, \"\\w\")",
+			"i == \"C\"",
+			"feature",
+			"c",
+			"b",
+			"a",
+			"float",
+			"size()",
+			"lleva",
+			"A",
+			"compared_dict"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"total",
+			"cobol[i][0]",
+			"cobolCapital[i][0]",
+			"cobol[0]",
+			"inputString[i] == '$1'",
+			"inputString[i] == \"$1\"",
+			"inputString[i] = \"$1\"",
+			"inputString[i] = \"$0\"",
+			"inputString[i] = \"$1\"",
+			"std::strcmp(i, \"c\")",
+			"(std::strcmp(i, \"c\")",
+			"side[0]",
+			"side[1]",
+			"side[2]",
+			"side[0]",
+			"int",
+			"length()",
+			"addition",
+			"a",
+			"compared_dict1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "toki/[Versi Lama] Training Gate TOKI Learning Center/Bab 8. Soal-Soal Menantang!/8A. Matematika/C.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								546,
+								546
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+							],
+							"SL.14.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										628,
+										629
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										509,
+										510
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										561,
+										562
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										545,
+										546
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3057,
+								3057
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"auto_indent": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"default_dir": "/home/andraantariksa/Projects/code-exercise/toki/[Versi Lama] Training Gate TOKI Learning Center/Bab 8. Soal-Soal Menantang!/8A. Matematika",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 647.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "code-exercise.sublime-project",
+	"replace":
+	{
+		"height": 90.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/andraantariksa.github.io-dev/andraantariksa.github.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
