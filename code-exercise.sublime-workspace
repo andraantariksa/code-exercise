@@ -4,12 +4,28 @@
 		"selected_items":
 		[
 			[
-				"pu",
-				"push_back\tvoid push_back(value_type &&__x)"
+				"min",
+				"miniVal\tint miniVal"
+			],
+			[
+				"maxi",
+				"maxiVal\tint maxiVal"
+			],
+			[
+				"max",
+				"maxiVal"
 			],
 			[
 				"beg",
-				"beginend\t$1.begin(), $1.end()"
+				"begin\titerator begin()"
+			],
+			[
+				"in",
+				"inc\t#include <…>"
+			],
+			[
+				"pu",
+				"push_back\tvoid push_back(value_type &&__x)"
 			],
 			[
 				"inp",
@@ -26,10 +42,6 @@
 			[
 				"p",
 				"push_front\tvoid push_front(int input)"
-			],
-			[
-				"in",
-				"insert\titerator insert(const_iterator __position, const value_type &__x)"
 			],
 			[
 				"it",
@@ -110,10 +122,6 @@
 			[
 				"A_",
 				"A_circ_sm"
-			],
-			[
-				"min",
-				"minPos\tchar minPos"
 			],
 			[
 				"rem",
@@ -324,9 +332,29 @@
 	"buffers":
 	[
 		{
+			"file": "codeforces/707A.cpp",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 346,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "codeforces/499.py",
+			"settings":
+			{
+				"buffer_size": 327,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "codeforces/731A.cpp",
+			"settings":
+			{
+				"buffer_size": 479,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -462,19 +490,25 @@
 	"expanded_folders":
 	[
 		"/home/andraantariksa/Projects/code-exercise",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler",
-		"/home/andraantariksa/Projects/code-exercise/toki",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/01. Perkenalan Pemrograman Kompetitif",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/01. Perkenalan Pemrograman Kompetitif/X. Materi Perkenalan",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/02. Matematika Diskret Dasar",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/02. Matematika Diskret Dasar/X. Materi Matematika Diskret Dasar",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/08. Struktur Data Dasar",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/08. Struktur Data Dasar/X. Materi Struktur Data Dasar"
+		"/home/andraantariksa/Projects/code-exercise/codeforces"
 	],
 	"file_history":
 	[
+		"/home/andraantariksa/Projects/code-exercise/codeforces/731A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/977A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/144.cpp",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/667A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/540A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/208A.py",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/723A.py",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/59A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/474A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/734A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/131A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1069.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/12. Dasar-Dasar Geometri/X. Materi Dasar-Dasar Geometri/A.cpp.undone",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/02. Matematika Diskret Dasar/X. Materi Matematika Diskret Dasar/C.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/A.c.undone",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/02. Matematika Diskret Dasar/X. Materi Matematika Diskret Dasar/B.cpp",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/08. Struktur Data Dasar/X. Materi Struktur Data Dasar/A.cpp",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/08. Struktur Data Dasar/X. Materi Struktur Data Dasar/B.cpp",
@@ -587,26 +621,11 @@
 		"/home/andraantariksa/Projects/code-exercise/uri/1015.py",
 		"/tmp/fz3temp-2/do2.py",
 		"/home/andraantariksa/Projects/kbbi/scrapper/do2.py",
-		"/home/andraantariksa/Projects/kbbi/scrapper/do3.py",
-		"/home/andraantariksa/Projects/kbbi/scrapper/entriKBBI.py",
-		"/home/andraantariksa/Projects/kbbi/scrapper/do.py",
-		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/content/blog/2018-10-28-migrasi-ke-hugo.md",
-		"/home/andraantariksa/Projects/kbbi/README.md",
-		"/home/andraantariksa/Projects/kbbi/scrapper/scrape.py",
-		"/home/andraantariksa/Projects/kbbi/scrapper/data/data.json",
-		"/home/andraantariksa/Projects/kbbi/scrapper/data/X.json",
-		"/home/andraantariksa/Projects/kbbi/scrapper/data.json",
-		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/config.toml",
-		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/_default/single.html",
-		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/partials/post-header.html",
-		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/content/blog/2018-10-22-perbedaan-operator-logika-is-dan-pada-python.md",
-		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/static/css/main.css",
-		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/partials/post-card.html",
-		"/home/andraantariksa/Projects/andraantariksa.github.io-dev/themes/AllinOne/layouts/partials/tags.html"
+		"/home/andraantariksa/Projects/kbbi/scrapper/do3.py"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -674,34 +693,588 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "codeforces/707A.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 346,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								22,
+								22
 							]
 						],
 						"settings":
 						{
+							"SL.19.region_keys":
+							[
+							],
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
-							"default_dir": "/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/02. Matematika Diskret Dasar/X. Materi Matematika Diskret Dasar",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										129,
+										130
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										106,
+										107
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "codeforces/499.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"SL.20.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										198,
+										199
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										196,
+										197
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "codeforces/731A.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"SL.22.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 22,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										261,
+										262
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										241,
+										242
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 34.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -747,7 +1320,7 @@
 	},
 	"output.exec":
 	{
-		"height": 186.0
+		"height": 229.0
 	},
 	"output.find_results":
 	{
@@ -807,7 +1380,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 408.0,
+	"side_bar_width": 411.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

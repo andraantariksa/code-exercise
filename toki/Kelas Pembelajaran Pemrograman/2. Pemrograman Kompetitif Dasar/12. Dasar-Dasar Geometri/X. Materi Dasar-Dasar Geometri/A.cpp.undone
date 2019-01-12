@@ -1,0 +1,24 @@
+/*input
+0 0 4
+10 0 5
+*/
+#include <iostream>
+
+int aa, ab, ac, ba, bb, bc;
+
+int main(){
+	std::cin>>aa>>ab>>ac;
+	std::cin>>ba>>bb>>bc;
+	if(aa == ba && ab == bb){
+		std::cout<<"bersentuhan"<<std::endl;
+		return 0;
+	}else{
+		if(aa > ba){
+			aa -= ac;
+		}else if(aa < ba){
+			aa += ac;
+		}
+	}
+	std::cout<<aa<<std::endl;
+	return 0;
+}
