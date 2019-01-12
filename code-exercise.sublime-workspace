@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"input_segment"
+			],
+			[
+				"rea",
+				"read_line"
+			],
+			[
+				"pass",
+				"passanger"
+			],
+			[
+				"total",
+				"total_car"
+			],
+			[
+				"tota",
+				"total_car"
+			],
+			[
+				"rem",
+				"remainder_temp"
+			],
+			[
+				"to",
+				"total_car"
+			],
+			[
+				"print",
+				"println\tprintln!(…)"
+			],
+			[
+				"wh",
+				"whoops"
+			],
+			[
 				"min",
 				"miniVal\tint miniVal"
 			],
@@ -18,10 +54,6 @@
 			[
 				"beg",
 				"begin\titerator begin()"
-			],
-			[
-				"in",
-				"inc\t#include <…>"
 			],
 			[
 				"pu",
@@ -88,10 +120,6 @@
 				"regex\tstandard header (since c++11)"
 			],
 			[
-				"total",
-				"totalIter"
-			],
-			[
 				"state",
 				"stateAsterisk"
 			],
@@ -122,10 +150,6 @@
 			[
 				"A_",
 				"A_circ_sm"
-			],
-			[
-				"rem",
-				"removeDigit\tint removeDigit"
 			],
 			[
 				"num",
@@ -331,33 +355,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "codeforces/707A.cpp",
-			"settings":
-			{
-				"buffer_size": 346,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "codeforces/499.py",
-			"settings":
-			{
-				"buffer_size": 327,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "codeforces/731A.cpp",
-			"settings":
-			{
-				"buffer_size": 479,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/C++/C++ Single File.sublime-build",
 	"build_system_choices":
@@ -403,6 +400,10 @@
 		"selected_items":
 		[
 			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
 				"git pu",
 				"Git: Push"
 			],
@@ -433,10 +434,6 @@
 			[
 				"git",
 				"Git: Gui"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"package",
@@ -494,7 +491,22 @@
 	],
 	"file_history":
 	[
+		"/home/andraantariksa/Projects/code-exercise/codeforces/1101A.py.undone",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/158B.rs",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/116A.rs",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/282A.cpp",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/User/SublimeInput.sublime-settings",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/58A.py",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/520A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/518B.py",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/978B.py",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/822A.py",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/122A.py",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/630A.py",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/630.cpp",
 		"/home/andraantariksa/Projects/code-exercise/codeforces/731A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/707A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/codeforces/499.py",
 		"/home/andraantariksa/Projects/code-exercise/codeforces/977A.cpp",
 		"/home/andraantariksa/Projects/code-exercise/codeforces/144.cpp",
 		"/home/andraantariksa/Projects/code-exercise/codeforces/667A.cpp",
@@ -513,7 +525,6 @@
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/08. Struktur Data Dasar/X. Materi Struktur Data Dasar/A.cpp",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/08. Struktur Data Dasar/X. Materi Struktur Data Dasar/B.cpp",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/01. Perkenalan Pemrograman Kompetitif/X. Materi Perkenalan/C.py",
-		"/home/andraantariksa/.config/sublime-text-3/Packages/User/SublimeInput.sublime-settings",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/01. Perkenalan Pemrograman Kompetitif/X. Materi Perkenalan/C.cpp",
 		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2508.cpp",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/01. Perkenalan Pemrograman Kompetitif/D.cpp",
@@ -523,7 +534,6 @@
 		"/home/andraantariksa/Projects/learn-java/hello.java",
 		"/home/andraantariksa/Projects/code-exercise/codechef/HS08TEST.c",
 		"/home/andraantariksa/Projects/code-exercise/codechef/INTEST.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/282A.cpp",
 		"/home/andraantariksa/Projects/code-exercise/codeforces/96A.cpp",
 		"/home/andraantariksa/Projects/code-exercise/toki/Toki Regular Open Contest/TROC #4/B.cpp.undone",
 		"/home/andraantariksa/Projects/code-exercise/README.md",
@@ -608,20 +618,7 @@
 		"/home/andraantariksa/Projects/code-exercise/uri/1221.cpp",
 		"/home/andraantariksa/Projects/code-exercise/uri/2859.cpp",
 		"/home/andraantariksa/Projects/code-exercise/uri/2863.py",
-		"/home/andraantariksa/Projects/code-exercise/checkio/py/verify-anagrams.py",
-		"/home/andraantariksa/Projects/t.c",
-		"/home/andraantariksa/Projects/t3.cpp",
-		"/home/andraantariksa/Projects/t2.cpp",
-		"/home/andraantariksa/Projects/t4.cpp",
-		"/home/andraantariksa/Projects/code-exercise/uri/2717.py",
-		"/home/andraantariksa/Projects/code-exercise/uri/2762.py",
-		"/home/andraantariksa/Projects/code-exercise/uri/1051.py",
-		"/home/andraantariksa/Projects/code-exercise/uri/1016.py",
-		"/home/andraantariksa/Projects/code-exercise/uri/1050.py",
-		"/home/andraantariksa/Projects/code-exercise/uri/1015.py",
-		"/tmp/fz3temp-2/do2.py",
-		"/home/andraantariksa/Projects/kbbi/scrapper/do2.py",
-		"/home/andraantariksa/Projects/kbbi/scrapper/do3.py"
+		"/home/andraantariksa/Projects/code-exercise/checkio/py/verify-anagrams.py"
 	],
 	"find":
 	{
@@ -639,6 +636,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"inpTot",
+			"&1",
+			"&3",
+			"&2",
+			"&4",
+			"passanger_hashmap",
+			"passangerVect",
 			"amount",
 			"cobol[i]",
 			"cobolCapital[i]",
@@ -663,6 +667,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			"input_total",
+			"1",
+			"3",
+			"2",
+			"4",
+			"passanger",
+			"passanger_vect",
 			"total",
 			"cobol[i][0]",
 			"cobolCapital[i][0]",
@@ -693,593 +704,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "codeforces/707A.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 346,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22,
-								22
-							]
-						],
-						"settings":
-						{
-							"SL.19.region_keys":
-							[
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										129,
-										130
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										106,
-										107
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "codeforces/499.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 327,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								76,
-								76
-							]
-						],
-						"settings":
-						{
-							"SL.20.region_keys":
-							[
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										198,
-										199
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/square_bracket.png",
-										"region.bluish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										196,
-										197
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "codeforces/731A.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 479,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								242,
-								242
-							]
-						],
-						"settings":
-						{
-							"SL.22.region_keys":
-							[
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": 22,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										261,
-										262
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										241,
-										242
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 34.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1320,7 +746,7 @@
 	},
 	"output.exec":
 	{
-		"height": 229.0
+		"height": 280.0
 	},
 	"output.find_results":
 	{
@@ -1380,7 +806,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 411.0,
+	"side_bar_width": 380.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
