@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"std",
+				"stdlib.h\tstandard header (deprecated)"
+			],
+			[
+				"i",
+				"iomanip\tstandard header"
+			],
+			[
 				"ci",
 				"cipher_move"
 			],
@@ -76,10 +84,6 @@
 				"input"
 			],
 			[
-				"std",
-				"stdio.h\t/usr/include"
-			],
-			[
 				"tot",
 				"tot_inp"
 			],
@@ -126,10 +130,6 @@
 			[
 				"input",
 				"input_segment"
-			],
-			[
-				"i",
-				"inpu_segment"
 			],
 			[
 				"re",
@@ -484,6 +484,10 @@
 				"Package Control: Install Package"
 			],
 			[
+				"material",
+				"Material Theme: Configuration"
+			],
+			[
 				"insta",
 				"Package Control: Install Package"
 			],
@@ -575,10 +579,34 @@
 	"expanded_folders":
 	[
 		"/home/andraantariksa/Projects/code-exercise",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler"
+		"/home/andraantariksa/Projects/code-exercise/pandaoj"
 	],
 	"file_history":
 	[
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/JOLLYREC17QUALL.c",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/BNPCHS2009QB.py",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/WEALTH.cpp",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/INC2015A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/IDEAFUSE18QA.cpp",
+		"/home/andraantariksa/Projects/code-exercise/assignment.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/TOKI Regular Open Contest/TROC #2/A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/README.md",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/08. Analisis Kompleksitas/B.cpp",
+		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/2. Operator.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/08. Analisis Kompleksitas/A.txt",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/09. Array/A.txt",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/12. Rekursi/A.txt",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/12. Rekursi/C.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/12. Rekursi/E.py",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/12. Rekursi/B.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/12. Rekursi/D.py",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/1. Data Type.cpp",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/11. Pendalaman String/F.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/11. Pendalaman String/E.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/11. Pendalaman String/B.py",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/11. Pendalaman String/D.py",
 		"/home/andraantariksa/Projects/AndraAntariksa_7.html",
 		"/home/andraantariksa/Projects/C.cpp",
 		"/home/andraantariksa/Projects/AndraAntariksa_4.html",
@@ -586,7 +614,6 @@
 		"/home/andraantariksa/Projects/AndraAntariksa_6.html",
 		"/home/andraantariksa/Projects/fian.cpp",
 		"/home/andraantariksa/Projects/code-exercise/projecteuler/2.rs",
-		"/home/andraantariksa/Projects/code-exercise/README.md",
 		"/home/andraantariksa/Projects/code-exercise/codeforces/c1100C.rs",
 		"/home/andraantariksa/Projects/code-exercise/.gitignore",
 		"/home/andraantariksa/Projects/code-exercise/spoj/FCTRL2.cpp",
@@ -683,38 +710,15 @@
 		"/home/andraantariksa/Projects/code-exercise/codeforces/731A.cpp",
 		"/home/andraantariksa/Projects/code-exercise/codeforces/707A.cpp",
 		"/home/andraantariksa/Projects/code-exercise/codeforces/499.py",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/977A.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/144.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/667A.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/540A.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/208A.py",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/723A.py",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/59A.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/474A.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/734A.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/131A.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1069.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/12. Dasar-Dasar Geometri/X. Materi Dasar-Dasar Geometri/A.cpp.undone",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/02. Matematika Diskret Dasar/X. Materi Matematika Diskret Dasar/C.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/A.c.undone",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/02. Matematika Diskret Dasar/X. Materi Matematika Diskret Dasar/B.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/08. Struktur Data Dasar/X. Materi Struktur Data Dasar/A.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/08. Struktur Data Dasar/X. Materi Struktur Data Dasar/B.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/01. Perkenalan Pemrograman Kompetitif/X. Materi Perkenalan/C.py",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/01. Perkenalan Pemrograman Kompetitif/X. Materi Perkenalan/C.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2508.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/01. Perkenalan Pemrograman Kompetitif/D.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2427.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2057.cpp",
-		"/home/andraantariksa/Projects/code-exercise/leetcode/jewels-and-stones.cpp"
+		"/home/andraantariksa/Projects/code-exercise/codeforces/977A.cpp"
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
-		"height": 132.0,
+		"height": 158.0,
 		"where_history":
 		[
 		]
@@ -724,6 +728,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"    ",
+			"     ",
+			"std::",
+			"preter",
+			"intepre",
+			"python",
 			"input",
 			"u64",
 			"u128",
@@ -769,9 +779,11 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"\\n",
+			"",
 			"major",
 			"u128",
 			"u32",
@@ -866,7 +878,7 @@
 	},
 	"output.exec":
 	{
-		"height": 321.0
+		"height": 255.0
 	},
 	"output.find_results":
 	{
@@ -884,7 +896,7 @@
 	"project": "code-exercise.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 114.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -926,7 +938,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 223.0,
+	"side_bar_width": 320.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

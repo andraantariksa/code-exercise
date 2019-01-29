@@ -13,15 +13,6 @@ This repository contain all of my answer on various code contest or exerice plat
 * uvaonlinejudge/ - Sphere Online Judge (SPOJ) - https://spoj.com
 * hackerrank/ - HackerRank - https://hackerrank.com
 
-I mainly use C++ or Python to solve the problem but sometimes I use Rust or C
-
----
-
-## Update
-
-**September 2018** - I'm losing some of my answer files ;-;
-**January 2019** - Adding more answer and more sites
-
 ---
 
 Feel free to contribute to this repository.
