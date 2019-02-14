@@ -9,8 +9,8 @@ This repository contain all of my answer on various code contest or exerice plat
 * kattis/ - Kattis - https://open.kattis.com/
 * pandaoj/ - Panda Online Judge - https://pandaoj.com
 * spoj/ - Sphere Online Judge (SPOJ) - https://spoj.com
-* leetcode/ - Sphere Online Judge (SPOJ) - https://spoj.com
-* uvaonlinejudge/ - Sphere Online Judge (SPOJ) - https://spoj.com
+* leetcode/ - LeetCode - https://leetcode.com/
+* uvaonlinejudge/ - Sphere Online Judge (SPOJ) - https://uva.onlinejudge.org
 * hackerrank/ - HackerRank - https://hackerrank.com
 
 ---

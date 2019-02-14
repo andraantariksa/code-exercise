@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"items",
+				"itemstotal"
+			],
+			[
+				"dig",
+				"dig_depth"
+			],
+			[
+				"di",
+				"dig_depth"
+			],
+			[
+				"f",
+				"format\tfunction"
+			],
+			[
+				"sco",
+				"scores"
+			],
+			[
+				"la",
+				"lastName"
+			],
+			[
+				"fir",
+				"firstName"
+			],
+			[
+				"sc",
+				"scoreTotal"
+			],
+			[
+				"tes",
+				"testScores"
+			],
+			[
 				"inp",
 				"input\tfunction"
 			],
@@ -475,6 +511,13 @@
 	},
 	"buffers":
 	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/C++/C++ Single File.sublime-build",
 	"build_system_choices":
@@ -520,12 +563,16 @@
 		"selected_items":
 		[
 			[
-				"linter",
-				"SublimeLinter: Show All Errors"
+				"open res",
+				"PackageResourceViewer: Open Resource"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
 			],
 			[
 				"remov",
@@ -631,6 +678,57 @@
 	],
 	"file_history":
 	[
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1865.cpp",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2581.cpp",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1164.cpp",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1175.cpp",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2928.cpp",
+		"/home/andraantariksa/Projects/SP2.cpp",
+		"/home/andraantariksa/Projects/SP.cpp",
+		"/home/andraantariksa/Projects/SP3.cpp",
+		"/home/andraantariksa/Projects/coba.cpp",
+		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/16. Exceptions - String to Integer.cpp",
+		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/15. Linked List.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Programming Competition Session JOINTS/PCS JOINTS 2018/Penyisihan/A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1094.cpp",
+		"/home/andraantariksa/Projects/AndraAntariksa_12.html",
+		"/home/andraantariksa/Projects/AndraAntariksa_11.html",
+		"/home/andraantariksa/Projects/AndraAntariksa_8.html",
+		"/home/andraantariksa/Projects/code-exercise/t2.py",
+		"/home/andraantariksa/Projects/code-exercise/README.md",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/05. Percabangan/E.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/05. Percabangan/F.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/05. Percabangan/G.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/05. Percabangan/B.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/05. Percabangan/C.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/A[Pascal].txt",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/F.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/E.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/D.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/B.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/C.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/A.txt",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/11. Pendalaman String/A.txt",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/TOKI Regular Open Contest/TROC #3/A.cpp",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/030-for-int-loop-(fori).sublime-snippet",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1555.cpp",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/if-..-(if).sublime-snippet",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/do...while-loop-(do).sublime-snippet",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/#include-(#inc).sublime-snippet",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/forv.sublime-snippet",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/#include-(inc).sublime-snippet",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/main()-(int main).sublime-snippet",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/main()-(main).sublime-snippet",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/C++.sublime-syntax",
+		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Completion Rules.tmPreferences",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1436.cpp",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1323.cpp",
+		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/13. Abstract Class.cpp",
+		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/14. Scope.cpp",
+		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/12. Inheritance.cpp",
+		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/11. 2D Arrays.cpp",
+		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/10. Binary Number.py",
+		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/9. Recursion 3.cpp",
 		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2242.py",
 		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2108.cpp",
 		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2174.py",
@@ -644,7 +742,6 @@
 		"/home/andraantariksa/Projects/assignment.cpp",
 		"/home/andraantariksa/Projects/AndraAntariksa_10.html",
 		"/home/andraantariksa/Projects/AndraAntariksa_9.html",
-		"/home/andraantariksa/Projects/AndraAntariksa_8.html",
 		"/home/andraantariksa/Projects/AndraAntariksa_7.html",
 		"/home/andraantariksa/Projects/AndraAntariksa_6.html",
 		"/home/andraantariksa/Projects/AndraAntariksa_5.html",
@@ -695,7 +792,6 @@
 		"/home/andraantariksa/Projects/code-exercise/pandaoj/IDEAFUSE18QA.cpp",
 		"/home/andraantariksa/Projects/code-exercise/assignment.cpp",
 		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/TOKI Regular Open Contest/TROC #2/A.cpp",
-		"/home/andraantariksa/Projects/code-exercise/README.md",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/08. Analisis Kompleksitas/B.cpp",
 		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/2. Operator.cpp",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/08. Analisis Kompleksitas/A.txt",
@@ -709,56 +805,7 @@
 		"/home/andraantariksa/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/11. Pendalaman String/F.cpp",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/11. Pendalaman String/E.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/11. Pendalaman String/B.py",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/11. Pendalaman String/D.py",
-		"/home/andraantariksa/Projects/C.cpp",
-		"/home/andraantariksa/Projects/fian.cpp",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/2.rs",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/c1100C.rs",
-		"/home/andraantariksa/Projects/code-exercise/.gitignore",
-		"/home/andraantariksa/Projects/code-exercise/spoj/FCTRL2.cpp",
-		"/home/andraantariksa/Projects/code-exercise/calculator.java",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/c1104B.cpp",
-		"/home/andraantariksa/Projects/code-exercise/bank.java",
-		"/home/andraantariksa/Projects/code-exercise/bank.cpp",
-		"/home/andraantariksa/Projects/code-exercise/assignment2.html",
-		"/home/andraantariksa/Projects/code-exercise/assignment1.html",
-		"/home/andraantariksa/Projects/code-exercise/assignment3.html",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/c1105c.cpp",
-		"/home/andraantariksa/Projects/code-exercise/kattis/zoo.py",
-		"/home/andraantariksa/Projects/code-exercise/kattis/nodup.py",
-		"/home/andraantariksa/Projects/code-exercise/kattis/pot.py",
-		"/home/andraantariksa/Projects/code-exercise/kattis/speedlimit.cpp",
-		"/home/andraantariksa/Projects/code-exercise/kattis/trik.cpp",
-		"/home/andraantariksa/Projects/code-exercise/pandaoj/BNPCHS2015QA.cpp",
-		"/home/andraantariksa/Projects/code-exercise/pandaoj/BNPCHS2015QB.cpp",
-		"/home/andraantariksa/Projects/code-exercise/pandaoj/JOLLYREC17QUALM.cpp",
-		"/home/andraantariksa/Projects/code-exercise/pandaoj/PUNISHMENT2.cpp",
-		"/home/andraantariksa/Projects/code-exercise/kattis/bijele.cpp",
-		"/home/andraantariksa/Projects/code-exercise/kattis/batterup.cpp",
-		"/home/andraantariksa/Projects/code-exercise/kattis/alphabetspam.cpp",
-		"/home/andraantariksa/Projects/code-exercise/kattis/apaxiaaans.cpp",
-		"/home/andraantariksa/Projects/code-exercise/kattis/simonsays.py",
-		"/home/andraantariksa/Projects/code-exercise/kattis/hissingmicrophone.py",
-		"/home/andraantariksa/Projects/code-exercise/kattis/lastfactorialdigit.py",
-		"/home/andraantariksa/Projects/code-exercise/kattis/quadrant.cpp",
-		"/home/andraantariksa/Projects/code-exercise/kattis/qaly.cpp",
-		"/home/andraantariksa/Projects/code-exercise/kattis/r2.cpp",
-		"/home/andraantariksa/Projects/code-exercise/kattis/carrtos.py",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/116A.rs",
-		"/home/andraantariksa/Projects/code-exercise/kattis/timeloop.rs",
-		"/home/andraantariksa/Projects/code-exercise/kattis/autori.py",
-		"/home/andraantariksa/Projects/code-exercise/kattis/timeloop.cpp",
-		"/home/andraantariksa/Projects/code-exercise/kattis/contest/knyfii/increasingsubsequence.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/4C.py",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/141A.py",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/268B.py",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/815C.cpp.undone",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/344A.cpp",
-		"/home/andraantariksa/Projects/code-exercise/spoj/FAVDICE.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/617.c",
-		"/home/andraantariksa/oopdays2.java",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1014.cpp"
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/11. Pendalaman String/B.py"
 	],
 	"find":
 	{
@@ -776,6 +823,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"setFixed",
+			"0 &&",
+			"main",
 			"u16",
 			"PY3",
 			"    ",
@@ -832,6 +882,8 @@
 		"regex": true,
 		"replace_history":
 		[
+			"toFixed",
+			"0 ||",
 			"i16",
 			"\\n",
 			"",
@@ -887,8 +939,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"default_dir": "/home/andraantariksa/Projects/code-exercise/urionlinejudge",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -967,7 +1050,7 @@
 		[
 			[
 				"",
-				"~/Projects/latihkode/latihkode.sublime-project"
+				"~/Projects/ketijudger/ketijudger.sublime-project"
 			]
 		],
 		"width": 380.0
