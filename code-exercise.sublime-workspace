@@ -4,16 +4,72 @@
 		"selected_items":
 		[
 			[
-				"fa",
-				"factorial\tfunction"
+				"str",
+				"struct\tstruct … { … }"
+			],
+			[
+				"de",
+				"debug\tdebug!(…)"
 			],
 			[
 				"f",
-				"factorial\tfunction"
+				"fn\tfn …(…) { … }"
+			],
+			[
+				"fo",
+				"format\tformat!(…)"
+			],
+			[
+				"stru",
+				"struct-unit\tstruct …;"
+			],
+			[
+				"p",
+				"println\tprintln!(…)"
+			],
+			[
+				"inp",
+				"inp_segment"
+			],
+			[
+				"prin",
+				"println\tprintln!(…)"
+			],
+			[
+				"ve",
+				"vector\tstandard header"
+			],
+			[
+				"ma",
+				"main\tmain()"
+			],
+			[
+				"iter",
+				"itertools\tmodule"
+			],
+			[
+				"pr",
+				"println\tprintln!(…)"
+			],
+			[
+				"pri",
+				"println\tprintln!(…)"
 			],
 			[
 				"co",
-				"continue\tcontinue;"
+				"count"
+			],
+			[
+				"c",
+				"count"
+			],
+			[
+				"prim",
+				"prime_list"
+			],
+			[
+				"fa",
+				"factorial\tfunction"
 			],
 			[
 				"for",
@@ -26,10 +82,6 @@
 			[
 				"su",
 				"sum_suare\tstatement"
-			],
-			[
-				"pr",
-				"product\tstatement"
 			],
 			[
 				"gr",
@@ -92,16 +144,8 @@
 				"impl\timpl … { … }"
 			],
 			[
-				"fo",
-				"for\tfor … in … { … }"
-			],
-			[
 				"arr",
 				"arr_s"
-			],
-			[
-				"pri",
-				"println\tprintln!(…)"
 			],
 			[
 				"us",
@@ -114,10 +158,6 @@
 			[
 				"tr",
 				"trait\ttrait … { … }"
-			],
-			[
-				"p",
-				"pow_ext"
 			],
 			[
 				"items",
@@ -152,16 +192,8 @@
 				"testScores"
 			],
 			[
-				"inp",
-				"input\tfunction"
-			],
-			[
 				"cl",
 				"clear\tvoid clear()"
-			],
-			[
-				"ve",
-				"vector\t/usr/include/c++/7.3.0"
 			],
 			[
 				"att",
@@ -416,10 +448,6 @@
 				"A_circ_sm"
 			],
 			[
-				"iter",
-				"iterateRoom2"
-			],
-			[
 				"room",
 				"room"
 			],
@@ -442,10 +470,6 @@
 			[
 				"numb",
 				"number2"
-			],
-			[
-				"str",
-				"string"
 			],
 			[
 				"char",
@@ -490,35 +514,23 @@
 			[
 				"mat",
 				"cmath\tstandard header"
-			],
-			[
-				"rig",
-				"rightState"
-			],
-			[
-				"be",
-				"before"
-			],
-			[
-				"fib",
-				"fibonacciCalls"
-			],
-			[
-				"page",
-				"pageId"
-			],
-			[
-				"Ti",
-				"TiList"
-			],
-			[
-				"ma",
-				"main\tmain()"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"contents": "/*input\n100 -25\n*/\n#[derive(Debug)]\nstruct BigInt(String);\n\nimpl std::ops::Add<BigInt> for BigInt {\n    type Output = BigInt;\n    fn add(self, i: BigInt) -> BigInt {\n        BigInt(format!(\"{:?}+{:?}\", self, i))\n    }\n}\n\nfn main() {\n    let a = BigInt(\"100\".to_string());\n    let b = BigInt(\"100\".to_string());\n    println!(\"{:?}\", a + b);\n    /*let mut s = format!(\"\");\n    std::io::stdin().read_line(&mut s).expect(\"\");\n    let v: Vec<&str> = s.trim().split_whitespace().collect();\n    println!(\"{:?}\", add(v[0].to_string(), v[1].to_string()));*/\n}\n",
+			"file": "aizuonlinejudge/NTL_2_A.rs",
+			"file_size": 551,
+			"file_write_time": 131955519570536131,
+			"settings":
+			{
+				"buffer_size": 551,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/C++/C++ Single File.sublime-build",
 	"build_system_choices":
@@ -679,8 +691,67 @@
 	],
 	"file_history":
 	[
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0101.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/NTL_1_C.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0005.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_1_D.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_1_C.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_3_B.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_2_A.rs",
+		"/home/andraantariksa/Andra.html",
+		"/home/andraantariksa/Projects/temp/AndraAntariksa_11.html",
+		"/home/andraantariksa/Projects/temp/AndraAntariksa_10.html",
+		"/home/andraantariksa/Projects/temp/AndraAntariksa_9.html",
+		"/home/andraantariksa/Projects/temp/AndraAntariksa_12.html",
+		"/home/andraantariksa/Projects/temp/AndraAntariksa_13.html",
+		"/home/andraantariksa/Projects/temp/AndraAntariksa_14.html",
+		"/home/andraantariksa/Projects/temp/AndraAntariksa_15.html",
+		"/home/andraantariksa/Projects/temp/AndraAntariksa_4.html",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_1_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/NTL_1_B.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_2_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_3_C.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_4_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_4_B.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_4_C.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_4_D.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_5_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_6_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_8_B.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_1_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_5_C.cpp",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_3_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_2_C.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_2_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_1_D.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_4_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_1_B.rs",
+		"/home/andraantariksa/Projects/code-exercise/timus/1293.rs",
+		"/home/andraantariksa/Projects/code-exercise/timus/2066.rs",
+		"/home/andraantariksa/Projects/code-exercise/timus/1785.rs",
+		"/home/andraantariksa/Projects/code-exercise/timus/1001.rs",
+		"/home/andraantariksa/Projects/code-exercise/timus/1000.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/3027.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0002.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0001.rs",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/04. Brute Force/B.cpp.undone",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/03. Pencarian dan Pengurutan/D.cpp.undone",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/03. Pencarian dan Pengurutan/D.py.undone",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/03. Pencarian dan Pengurutan/C.py",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/03. \n03. \n03. \n03. Pencarian dan Pengurutan/C.py",
+		"/home/andraantariksa/Projects/code-exercise/toki/[Versi Lama] Training Gate TOKI Learning Center/Bab 4. Complete Search/4A. Complete Search I/E.py",
+		"/home/andraantariksa/Projects/code-exercise/toki/[Versi Lama] Training Gate TOKI Learning Center/Bab 4. Complete Search/4A. Complete Search I/E.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/[Versi Lama] Training Gate TOKI Learning Center/Bab 4. Complete Search/4A. Complete Search I/A.py.undone",
+		"/home/andraantariksa/Projects/code-exercise/toki/[Versi Lama] Training Gate TOKI Learning Center/Bab 4. Complete Search/4A. Complete Search I/B.py",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_8_C.rs",
+		"/home/andraantariksa/Projects/code-exercise/scan.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/3026.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_3_D.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0185.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/1000.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/1009.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0000.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0101.rs",
 		"/home/andraantariksa/Projects/code-exercise/projecteuler/answer.txt",
 		"/home/andraantariksa/Projects/code-exercise/hackerrank/Contest/ProjectEuler+/README.md",
 		"/home/andraantariksa/Projects/code-exercise/projecteuler/34.py",
@@ -716,9 +787,6 @@
 		"/home/andraantariksa/Projects/p-storenet.html",
 		"/home/andraantariksa/Projects/t2.py",
 		"/home/andraantariksa/2018-IT1-001201800123-Andra_Antariksa.cpp",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_1_B.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/1000.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/1009.rs",
 		"/home/andraantariksa/Projects/code-exercise/codeforces/contest/1113A.rs",
 		"/home/andraantariksa/t.py",
 		"/home/andraantariksa/Projects/AndraAntariksa_15.html",
@@ -731,18 +799,7 @@
 		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/20Sorting.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_4_B.rs.undone",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0003.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0001.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_1_D.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_2_A.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_3_A.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_4_A.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_1_A.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_2_A.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_4_A.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_6_A.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/NTL_1_B.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_5_C.cpp",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_4_B.rs",
 		"/home/andraantariksa/Projects/code-exercise/.vscode/ITP1_1_C.rs",
 		"/home/andraantariksa/Projects/code-exercise/atcoder/practice_2.rs.undone",
 		"/home/andraantariksa/Projects/code-exercise/atcoder/practice_1.rs",
@@ -750,11 +807,7 @@
 		"/home/andraantariksa/Projects/code-exercise/README.md",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0197.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0197.cpp",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0005.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_2_A.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/NTL_1_B.py",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0002.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0000.rs",
 		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1865.cpp",
 		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2581.cpp",
 		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1164.cpp",
@@ -765,48 +818,7 @@
 		"/home/andraantariksa/Projects/SP3.cpp",
 		"/home/andraantariksa/Projects/coba.cpp",
 		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/16. Exceptions - String to Integer.cpp",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/15. Linked List.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Programming Competition Session JOINTS/PCS JOINTS 2018/Penyisihan/A.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1094.cpp",
-		"/home/andraantariksa/Projects/AndraAntariksa_12.html",
-		"/home/andraantariksa/Projects/AndraAntariksa_11.html",
-		"/home/andraantariksa/Projects/AndraAntariksa_8.html",
-		"/home/andraantariksa/Projects/code-exercise/t2.py",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/05. Percabangan/E.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/05. Percabangan/F.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/05. Percabangan/G.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/05. Percabangan/B.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/05. Percabangan/C.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/A[Pascal].txt",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/F.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/E.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/D.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/B.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/C.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/01. Ekspresi dan Masukan Keluaran/A.txt",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/1. Pemrograman Dasar/11. Pendalaman String/A.txt",
-		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/TOKI Regular Open Contest/TROC #3/A.cpp",
-		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/030-for-int-loop-(fori).sublime-snippet",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1555.cpp",
-		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/if-..-(if).sublime-snippet",
-		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/do...while-loop-(do).sublime-snippet",
-		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/#include-(#inc).sublime-snippet",
-		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/forv.sublime-snippet",
-		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/#include-(inc).sublime-snippet",
-		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/main()-(int main).sublime-snippet",
-		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Snippets/main()-(main).sublime-snippet",
-		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/C++.sublime-syntax",
-		"/home/andraantariksa/.config/sublime-text-3/Packages/C++/Completion Rules.tmPreferences",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1436.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1323.cpp",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/13. Abstract Class.cpp",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/14. Scope.cpp",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/12. Inheritance.cpp",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/11. 2D Arrays.cpp",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/10. Binary Number.py",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/9. Recursion 3.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2242.py",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2108.cpp"
+		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/15. Linked List.cpp"
 	],
 	"find":
 	{
@@ -824,6 +836,20 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"i_big",
+			"u16",
+			"f_distance",
+			";\\n\\t+var",
+			"<br/>",
+			" c,",
+			" c ",
+			" b ",
+			" a ",
+			"\\)\\;\\n +res = std::min\\(res",
+			"i64",
+			"u64",
+			"u32",
+			".parse::<u32>()",
 			"list",
 			"(\\w+)",
 			"\\n",
@@ -918,6 +944,22 @@
 		"regex": true,
 		"replace_history":
 		[
+			"BigInt",
+			"i32",
+			"calc_distance",
+			",",
+			", ",
+			"<br />",
+			"arr[2],",
+			"arr[2]",
+			"arr[1]",
+			"arr[0]",
+			"",
+			"i32",
+			"i64",
+			"ui64",
+			"u64",
+			".parse::<u32>().expect(\"\")",
 			"\"$1\"",
 			", ",
 			"",
@@ -1002,8 +1044,219 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "aizuonlinejudge/NTL_2_A.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 551,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"SL.30.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										196,
+										197
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										195,
+										196
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										198,
+										199
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										195,
+										196
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 11.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1044,7 +1297,7 @@
 	},
 	"output.exec":
 	{
-		"height": 284.0
+		"height": 210.0
 	},
 	"output.find_results":
 	{
@@ -1104,7 +1357,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 298.0,
+	"side_bar_width": 301.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

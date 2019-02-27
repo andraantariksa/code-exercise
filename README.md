@@ -16,4 +16,4 @@ This repository contain all of my answer on various code contest or exerice plat
 
 ---
 
-Feel free to contribute to this repository.
+Feel free to ask me by adding new issue.
