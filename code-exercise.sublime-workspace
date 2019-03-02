@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"patt",
+				"pattern"
+			],
+			[
+				"string",
+				"string_v"
+			],
+			[
+				"pri",
+				"println\tprintln!(…)"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"ve",
+				"vector\tstandard header"
+			],
+			[
+				"lo",
+				"longest"
+			],
+			[
+				"tot",
+				"tot_num"
+			],
+			[
+				"b",
+				"break\tbreak;"
+			],
+			[
+				"pr",
+				"println\tprintln!(…)"
+			],
+			[
+				"con",
+				"continue\tcontinue;"
+			],
+			[
+				"Big",
+				"BigDecimal"
+			],
+			[
+				"num",
+				"number_frecuency"
+			],
+			[
+				"wor",
+				"word_frecuency"
+			],
+			[
+				"word",
+				"word_list"
+			],
+			[
+				"mod",
+				"modus_word"
+			],
+			[
+				"for",
+				"for\tfor … in … { … }"
+			],
+			[
 				"str",
 				"struct\tstruct … { … }"
 			],
@@ -36,24 +100,12 @@
 				"println\tprintln!(…)"
 			],
 			[
-				"ve",
-				"vector\tstandard header"
-			],
-			[
 				"ma",
 				"main\tmain()"
 			],
 			[
 				"iter",
 				"itertools\tmodule"
-			],
-			[
-				"pr",
-				"println\tprintln!(…)"
-			],
-			[
-				"pri",
-				"println\tprintln!(…)"
 			],
 			[
 				"co",
@@ -70,10 +122,6 @@
 			[
 				"fa",
 				"factorial\tfunction"
-			],
-			[
-				"for",
-				"for\tfor … in … { … }"
 			],
 			[
 				"re",
@@ -130,10 +178,6 @@
 			[
 				"prett",
 				"pretty_print_POST\tfunction"
-			],
-			[
-				"st",
-				"struct\tstruct … { … }"
 			],
 			[
 				"tra",
@@ -224,10 +268,6 @@
 				"shortest_s\tshort shortest_s"
 			],
 			[
-				"num",
-				"num_list\tstatement"
-			],
-			[
 				"i",
 				"i_x\tint i_x"
 			],
@@ -306,10 +346,6 @@
 			[
 				"anim",
 				"animal_sort"
-			],
-			[
-				"tot",
-				"tot_inp"
 			],
 			[
 				"vect",
@@ -478,56 +514,30 @@
 			[
 				"io",
 				"iostream\tstandard header"
-			],
-			[
-				"fibo",
-				"fibonacci"
-			],
-			[
-				"mon",
-				"moneyDenominationTotal"
-			],
-			[
-				"mo",
-				"moneyDenominationTotal"
-			],
-			[
-				"com",
-				"compared_dict2"
-			],
-			[
-				"stdl",
-				"cstdlib\tstandard header"
-			],
-			[
-				"neg",
-				"negativeTotal"
-			],
-			[
-				"pos",
-				"positiveTotal"
-			],
-			[
-				"int",
-				"input"
-			],
-			[
-				"mat",
-				"cmath\tstandard header"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "/*input\n100 -25\n*/\n#[derive(Debug)]\nstruct BigInt(String);\n\nimpl std::ops::Add<BigInt> for BigInt {\n    type Output = BigInt;\n    fn add(self, i: BigInt) -> BigInt {\n        BigInt(format!(\"{:?}+{:?}\", self, i))\n    }\n}\n\nfn main() {\n    let a = BigInt(\"100\".to_string());\n    let b = BigInt(\"100\".to_string());\n    println!(\"{:?}\", a + b);\n    /*let mut s = format!(\"\");\n    std::io::stdin().read_line(&mut s).expect(\"\");\n    let v: Vec<&str> = s.trim().split_whitespace().collect();\n    println!(\"{:?}\", add(v[0].to_string(), v[1].to_string()));*/\n}\n",
-			"file": "aizuonlinejudge/NTL_2_A.rs",
-			"file_size": 551,
-			"file_write_time": 131955519570536131,
+			"contents": "/*input\n20 30\n*/\nfn read_line() -> String {\n    let mut return_ = format!(\"\");\n    std::io::stdin().read_line(&mut return_).ok();\n    return_\n}\n\nfn main() {\n    let v: Vec<i32> = read_line()\n        .trim()\n        .split_whitespace()\n        .map(|x| x.parse().expect(\"\"))\n        .collect();\n    println!(\"{}\", (v[0] - v[1]).abs());\n}",
+			"file": "aizuonlinejudge/0381.rs",
+			"file_size": 337,
+			"file_write_time": 131957044662175547,
 			"settings":
 			{
-				"buffer_size": 551,
-				"encoding": "UTF-8",
+				"buffer_size": 336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/*input\n4\n*/\nfn read_line() -> String {\n    let mut return_ = format!(\"\");\n    std::io::stdin().read_line(&mut return_).ok();\n    return_\n}\n\nfn main() {\n    let n: u32 = read_line().trim().parse().expect(\"\");\n    println!(\"{}\", 32 * n);\n}\n",
+			"file": "aizuonlinejudge/0335.rs",
+			"file_size": 239,
+			"file_write_time": 131956671411301367,
+			"settings":
+			{
+				"buffer_size": 239,
 				"line_ending": "Unix"
 			}
 		}
@@ -687,14 +697,58 @@
 	"expanded_folders":
 	[
 		"/home/andraantariksa/Projects/code-exercise",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge"
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge",
+		"/home/andraantariksa/Projects/code-exercise/toki",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Bina Nusantara Programming Contest for High School Students",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Bina Nusantara Programming Contest for High School Students/BNPCHS 2010",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Bina Nusantara Programming Contest for High School Students/BNPCHS 2010/BNPCHS 2010 - Penyisihan"
 	],
 	"file_history":
 	[
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_10_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B.cpp",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B.rs.undone",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B-2.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B.rs.naive.undone",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B.rs.kmp.undone",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Bina Nusantara Programming Contest for High School Students/BNPCHS 2010/BNPCHS 2010 - Penyisihan/B.cpp",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_5_C.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Ngoding Seru/Ngoding Seru Oktober 2015/Ngoding Seru Oktober 2015 - Divisi Pejuang/G.py.undone",
+		"/home/andraantariksa/Projects/code-exercise/README.md",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Ngoding Seru/Ngoding Seru Oktober 2015/Ngoding Seru Oktober 2015 - Divisi Pejuang/E.py",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Ngoding Seru/Ngoding Seru Oktober 2015/Ngoding Seru Oktober 2015 - Pejuang/B.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Ngoding Seru/Ngoding Seru Oktober 2015/Ngoding Seru Oktober 2015 - Divisi Pemula/H.py",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Ngoding Seru/Ngoding Seru Oktober 2015/Ngoding Seru Oktober 2015 - Pejuang/A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/IdeaFuse/Ngoding Seru Oktober 2015/Ngoding Seru Oktober 2015 - Divisi Pemula/D.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/IdeaFuse/Ngoding Seru Oktober 2015/Ngoding Seru Oktober 2015 - Divisi Pemula/F.cpp.undone",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/IdeaFuse/Ngoding Seru Oktober 2015/Ngoding Seru Oktober 2015 - Divisi Pemula/E.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/IdeaFuse/Ngoding Seru Oktober 2015/Ngoding Seru Oktober 2015 - Divisi Pemula/H.py",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/IdeaFuse/Ngoding Seru Oktober 2015/Ngoding Seru Oktober 2015 - Divisi Pemula/C.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/IdeaFuse/Ngoding Seru Oktober 2015/Ngoding Seru Oktober 2015 - Divisi Pemula/B.cpp",
+		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/IdeaFuse/Ngoding Seru Oktober 2015/Ngoding Seru Oktober 2015 - Divisi Pemula/A.cpp",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/2006.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/2197.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0336.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/1042.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0380.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0029.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_5_C.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_5_B.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0510.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_5_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0094.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/big.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/NTL_2_A.rs.undone",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0028.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0063.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0020.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0011.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/NTL_1_C.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0005.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_1_D.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_A.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_1_C.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_3_B.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_2_A.rs",
@@ -715,11 +769,9 @@
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_4_B.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_4_C.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_4_D.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_5_A.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_6_A.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_8_B.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_1_A.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_5_C.cpp",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_3_A.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_2_C.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_2_A.rs",
@@ -781,44 +833,7 @@
 		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2760.py",
 		"/home/andraantariksa/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
 		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2782.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/01. Perkenalan Pemrograman Kompetitif/X. Materi Perkenalan/B.cpp.undone",
-		"/home/andraantariksa/Projects/g.cpp",
-		"/home/andraantariksa/Projects/g2.cpp",
-		"/home/andraantariksa/Projects/p-storenet.html",
-		"/home/andraantariksa/Projects/t2.py",
-		"/home/andraantariksa/2018-IT1-001201800123-Andra_Antariksa.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/contest/1113A.rs",
-		"/home/andraantariksa/t.py",
-		"/home/andraantariksa/Projects/AndraAntariksa_15.html",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/21. Generics.cpp",
-		"/home/andraantariksa/Projects/code-exercise/pandaoj/CUBE333.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/t.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codeforces/1102A.cpp",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/19. Interfaces.cpp",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/20. Sorting.rs",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/20Sorting.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_4_B.rs.undone",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0003.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_4_A.rs",
-		"/home/andraantariksa/Projects/code-exercise/.vscode/ITP1_1_C.rs",
-		"/home/andraantariksa/Projects/code-exercise/atcoder/practice_2.rs.undone",
-		"/home/andraantariksa/Projects/code-exercise/atcoder/practice_1.rs",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/18. Queues and Stacks.cpp",
-		"/home/andraantariksa/Projects/code-exercise/README.md",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0197.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0197.cpp",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/NTL_1_B.py",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1865.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2581.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1164.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1175.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2928.cpp",
-		"/home/andraantariksa/Projects/SP2.cpp",
-		"/home/andraantariksa/Projects/SP.cpp",
-		"/home/andraantariksa/Projects/SP3.cpp",
-		"/home/andraantariksa/Projects/coba.cpp",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/16. Exceptions - String to Integer.cpp",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/30 Days of Code/15. Linked List.cpp"
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/01. Perkenalan Pemrograman Kompetitif/X. Materi Perkenalan/B.cpp.undone"
 	],
 	"find":
 	{
@@ -836,6 +851,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\\n",
+			"f64",
+			"frecuency",
 			"i_big",
 			"u16",
 			"f_distance",
@@ -944,6 +962,9 @@
 		"regex": true,
 		"replace_history":
 		[
+			"",
+			"u16",
+			"word_frecuency",
 			"BigInt",
 			"i32",
 			"calc_distance",
@@ -1044,58 +1065,40 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "aizuonlinejudge/NTL_2_A.rs",
+					"file": "aizuonlinejudge/0381.rs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 551,
+						"buffer_size": 336,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								195,
-								195
+								336,
+								336
 							]
 						],
 						"settings":
 						{
-							"SL.30.region_keys":
-							[
-							],
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
 							{
 								"close":
 								{
-									"1":
-									[
-										196,
-										197
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										195,
-										196
-									]
 								},
 								"unmatched":
 								{
@@ -1103,51 +1106,46 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1157,7 +1155,12 @@
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -1165,8 +1168,8 @@
 								{
 									"1":
 									[
-										198,
-										199
+										335,
+										336
 									]
 								},
 								"icon":
@@ -1181,8 +1184,8 @@
 								{
 									"1":
 									[
-										195,
-										196
+										155,
+										156
 									]
 								},
 								"unmatched":
@@ -1191,51 +1194,46 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1245,13 +1243,195 @@
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"open_with_edit": true,
 							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 11.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "aizuonlinejudge/0335.rs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1297,7 +1477,7 @@
 	},
 	"output.exec":
 	{
-		"height": 210.0
+		"height": 211.0
 	},
 	"output.find_results":
 	{
@@ -1357,7 +1537,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 301.0,
+	"side_bar_width": 271.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
