@@ -4,16 +4,60 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"input_vec"
+			],
+			[
+				"rea",
+				"read_line_vec"
+			],
+			[
+				"spl",
+				"split_whitespace"
+			],
+			[
+				"read",
+				"read_line_vec"
+			],
+			[
+				"mac",
+				"macro_rules\tmacro_rules! … { … }"
+			],
+			[
+				"re",
+				"return_"
+			],
+			[
+				"for",
+				"for\tFor Loop"
+			],
+			[
+				"pri",
+				"println\tprintln!(…)"
+			],
+			[
+				"inp",
+				"input\tfunction"
+			],
+			[
+				"fr",
+				"format\tfunction"
+			],
+			[
+				"pr",
+				"println\tprintln!(…)"
+			],
+			[
+				"print",
+				"print\tprint!(…)"
+			],
+			[
 				"patt",
 				"pattern"
 			],
 			[
 				"string",
 				"string_v"
-			],
-			[
-				"pri",
-				"println\tprintln!(…)"
 			],
 			[
 				"st",
@@ -34,10 +78,6 @@
 			[
 				"b",
 				"break\tbreak;"
-			],
-			[
-				"pr",
-				"println\tprintln!(…)"
 			],
 			[
 				"con",
@@ -64,10 +104,6 @@
 				"modus_word"
 			],
 			[
-				"for",
-				"for\tfor … in … { … }"
-			],
-			[
 				"str",
 				"struct\tstruct … { … }"
 			],
@@ -90,10 +126,6 @@
 			[
 				"p",
 				"println\tprintln!(…)"
-			],
-			[
-				"inp",
-				"inp_segment"
 			],
 			[
 				"prin",
@@ -124,20 +156,12 @@
 				"factorial\tfunction"
 			],
 			[
-				"re",
-				"return_"
-			],
-			[
 				"su",
 				"sum_suare\tstatement"
 			],
 			[
 				"gr",
 				"greatest\tstatement"
-			],
-			[
-				"in",
-				"input\tfunction"
 			],
 			[
 				"try",
@@ -384,10 +408,6 @@
 				"input_segment"
 			],
 			[
-				"rea",
-				"read_line"
-			],
-			[
 				"pass",
 				"passanger"
 			],
@@ -402,10 +422,6 @@
 			[
 				"to",
 				"total_car"
-			],
-			[
-				"print",
-				"println\tprintln!(…)"
 			],
 			[
 				"wh",
@@ -498,22 +514,6 @@
 			[
 				"full",
 				"fullL"
-			],
-			[
-				"fu",
-				"fullString"
-			],
-			[
-				"numb",
-				"number2"
-			],
-			[
-				"char",
-				"charArray"
-			],
-			[
-				"io",
-				"iostream\tstandard header"
 			]
 		]
 	},
@@ -531,13 +531,11 @@
 			}
 		},
 		{
-			"contents": "/*input\n4\n*/\nfn read_line() -> String {\n    let mut return_ = format!(\"\");\n    std::io::stdin().read_line(&mut return_).ok();\n    return_\n}\n\nfn main() {\n    let n: u32 = read_line().trim().parse().expect(\"\");\n    println!(\"{}\", 32 * n);\n}\n",
-			"file": "aizuonlinejudge/0335.rs",
-			"file_size": 239,
-			"file_write_time": 131956671411301367,
+			"file": "aizuonlinejudge/ITP2_3_C.rs",
 			"settings":
 			{
-				"buffer_size": 239,
+				"buffer_size": 903,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -697,20 +695,61 @@
 	"expanded_folders":
 	[
 		"/home/andraantariksa/Projects/code-exercise",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge",
-		"/home/andraantariksa/Projects/code-exercise/toki",
-		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman",
-		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Bina Nusantara Programming Contest for High School Students",
-		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Bina Nusantara Programming Contest for High School Students/BNPCHS 2010",
-		"/home/andraantariksa/Projects/code-exercise/toki/Arsip Kontes Pemrograman/Bina Nusantara Programming Contest for High School Students/BNPCHS 2010/BNPCHS 2010 - Penyisihan"
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge"
 	],
 	"file_history":
 	[
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_3_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0257.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_2_B.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0256.rs",
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/03. Pencarian dan Pengurutan/C.py",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1435.py.undone",
+		"/home/andraantariksa/Projects/code-exercise/t.cpp",
+		"/home/andraantariksa/Projects/code-exercise/t.py",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_8_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_8_D.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_3_B.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_2_D.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0335.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0357.rs",
+		"/home/andraantariksa/Projects/code-exercise/ns1.py",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0281.rs",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2749.py.undone",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0277.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0276.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B-2.rs",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1864.py",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1151.py",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1180.py",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1146.py",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1134.py",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1143.py",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1145.py",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1101.py",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1095.py",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1096.py",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1099.py",
+		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1061.py",
+		"/home/andraantariksa/Projects/code-exercise/leetcode/reverse-words-in-a-string-ii.rs",
+		"/home/andraantariksa/Projects/code-exercise/leetcode/reverse-string.rs",
+		"/home/andraantariksa/Projects/code-exercise/leetcode/swap-salary.sql",
+		"/home/andraantariksa/Projects/code-exercise/leetcode/sort-array-by-parity.rs",
+		"/home/andraantariksa/Projects/code-exercise/leetcode/jewels-and-stones.cpp",
+		"/home/andraantariksa/Projects/code-exercise/leetcode/jewels-and-stones.rs",
+		"/home/andraantariksa/Projects/code-exercise/leetcode/fibonacci-number.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_10_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0150.rs",
+		"/home/andraantariksa/Projects/code-exercise/leetcode/big-countries.sql",
+		"/home/andraantariksa/Projects/code-exercise/leetcode/unique-email-addresses.py",
+		"/home/andraantariksa/Projects/code-exercise/leetcode/squares-of-a-sorted-array.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0011.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0002.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0073.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_2_B.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B.cpp",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B.rs.undone",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B-2.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B.rs.naive.undone",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_B.rs.kmp.undone",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_14_A.rs",
@@ -745,7 +784,6 @@
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0028.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0063.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0020.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0011.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/NTL_1_C.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0005.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ALDS1_1_D.rs",
@@ -784,56 +822,11 @@
 		"/home/andraantariksa/Projects/code-exercise/timus/1001.rs",
 		"/home/andraantariksa/Projects/code-exercise/timus/1000.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/3027.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0002.rs",
 		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0001.rs",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/04. Brute Force/B.cpp.undone",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/03. Pencarian dan Pengurutan/D.cpp.undone",
 		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/03. Pencarian dan Pengurutan/D.py.undone",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/03. Pencarian dan Pengurutan/C.py",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/03. \n03. \n03. \n03. Pencarian dan Pengurutan/C.py",
-		"/home/andraantariksa/Projects/code-exercise/toki/[Versi Lama] Training Gate TOKI Learning Center/Bab 4. Complete Search/4A. Complete Search I/E.py",
-		"/home/andraantariksa/Projects/code-exercise/toki/[Versi Lama] Training Gate TOKI Learning Center/Bab 4. Complete Search/4A. Complete Search I/E.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/[Versi Lama] Training Gate TOKI Learning Center/Bab 4. Complete Search/4A. Complete Search I/A.py.undone",
-		"/home/andraantariksa/Projects/code-exercise/toki/[Versi Lama] Training Gate TOKI Learning Center/Bab 4. Complete Search/4A. Complete Search I/B.py",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_8_C.rs",
-		"/home/andraantariksa/Projects/code-exercise/scan.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/3026.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_3_D.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0185.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/1000.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/1009.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0000.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0101.rs",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/answer.txt",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/Contest/ProjectEuler+/README.md",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/34.py",
-		"/home/andraantariksa/Projects/code-exercise/hackerrank/Contest/ProjectEuler+/34.py",
-		"/home/andraantariksa/Projects/generate.py",
-		"/home/andraantariksa/Projects/indonesia.json",
-		"/home/andraantariksa/Projects/daftar.csv",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/20.py",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/14.rs.undone",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/20.rs",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/14.rs",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/5.rs",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/2.rs",
-		"/home/andraantariksa/Projects/calculator.java",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/16.py",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/13.py",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/7.rs",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/1.rs",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/6.py",
-		"/home/andraantariksa/Projects/code-exercise/projecteuler/8.py",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2727.py",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2633.py",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2764.py",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2761.py.undone",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2761.c",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2761.py",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2760.py",
-		"/home/andraantariksa/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2782.cpp",
-		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/01. Perkenalan Pemrograman Kompetitif/X. Materi Perkenalan/B.cpp.undone"
+		"/home/andraantariksa/Projects/code-exercise/toki/Kelas Pembelajaran Pemrograman/2. Pemrograman Kompetitif Dasar/03. \n03. \n03. \n03. Pencarian dan Pengurutan/C.py"
 	],
 	"find":
 	{
@@ -851,6 +844,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"u8",
 			"\\n",
 			"f64",
 			"frecuency",
@@ -962,6 +956,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"u16",
 			"",
 			"u16",
 			"word_frecuency",
@@ -1093,12 +1088,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										335,
+										336
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										155,
+										156
+									]
 								},
 								"unmatched":
 								{
@@ -1106,11 +1116,6 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1121,21 +1126,11 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1146,21 +1141,36 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -1194,61 +1204,61 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"open_with_edit": true,
 							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax"
@@ -1262,35 +1272,53 @@
 				},
 				{
 					"buffer": 1,
-					"file": "aizuonlinejudge/0335.rs",
+					"file": "aizuonlinejudge/ITP2_3_C.rs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 239,
+						"buffer_size": 903,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13,
-								13
+								727,
+								727
 							]
 						],
 						"settings":
 						{
+							"SL.23.region_keys":
+							[
+							],
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
 							"bracket_highlighter.clone_locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										154,
+										155
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										35,
+										36
+									]
 								},
 								"unmatched":
 								{
@@ -1298,72 +1326,87 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										892,
+										893
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										727,
+										728
+									]
 								},
 								"unmatched":
 								{
@@ -1371,41 +1414,11 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1416,22 +1429,54 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"open_with_edit": true,
-							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax"
+							"syntax": "Packages/Rust Enhanced/RustEnhanced.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 553.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1442,11 +1487,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 33.0
 	},
 	"input":
 	{
-		"height": 70.0
+		"height": 74.0
 	},
 	"layout":
 	{
@@ -1537,7 +1582,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 271.0,
+	"side_bar_width": 321.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
