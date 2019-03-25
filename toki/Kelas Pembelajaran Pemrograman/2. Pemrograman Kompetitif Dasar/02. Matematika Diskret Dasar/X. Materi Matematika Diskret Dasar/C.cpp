@@ -8,9 +8,8 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
-#include <algorithm>
 
-int n, inpTot, inp, max;
+int n, inpTot, inp;
 std::vector<int> v, inpArr;
 
 int main(){
@@ -19,12 +18,8 @@ int main(){
 		std::cin>>inp;
 		inpArr.push_back(inp);
 	}
-	max = *std::max_element(inpArr.begin(), inpArr.end());
-	n = max*max;
+	n = 1000000;
 	std::vector<bool> prime(n+1, true);
-	for(int i = 0; i <= n; i++){
-		prime[i] = true;
-	}
 	for(int p = 2; p <= sqrt(n); p++){
 		if(prime[p] == true){
 			for(int i = p*p; i <= n; i += p){
