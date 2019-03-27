@@ -1,0 +1,2 @@
+SELECT DISTINCT movies_.id, movies_.name FROM  (SELECT movies.id, movies.name, genres.description FROM movies INNER JOIN genres ON movies.id_genres = genres.id WHERE genres.description = 'Action') AS movies_ INNER JOIN (SELECT actors.id, movies_actors.id_movies FROM actors INNER JOIN movies_actors ON actors.id = movies_actors.id_actors WHERE actors.name = 'Miguel Silva' OR actors.name = 'Marcelo Silva' ) AS actors_ ON actors_.id_movies = movies_.id
+

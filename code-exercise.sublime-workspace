@@ -4,16 +4,48 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"print\tprint!(…)"
+			],
+			[
+				"pr",
+				"print\tprint!(…)"
+			],
+			[
+				"pri",
+				"print\tprint!(…)"
+			],
+			[
+				"l",
+				"l_\tstatement"
+			],
+			[
+				"tot",
+				"tot_num\tstatement"
+			],
+			[
+				"to",
+				"tot_num\tstatement"
+			],
+			[
+				"try",
+				"try\tTry/Except/Else/Finally"
+			],
+			[
+				"in",
+				"input_"
+			],
+			[
+				"stdi",
+				"stdio.h\tstandard header (deprecated)"
+			],
+			[
 				"num",
 				"nums1"
 			],
 			[
 				"lis",
 				"list1"
-			],
-			[
-				"in",
-				"input_vec"
 			],
 			[
 				"inp",
@@ -42,10 +74,6 @@
 			[
 				"spli",
 				"split_whitespace"
-			],
-			[
-				"to",
-				"to_ascii_lowercase"
 			],
 			[
 				"for",
@@ -92,10 +120,6 @@
 				"blue_start-blue_pulled"
 			],
 			[
-				"pr",
-				"println\tprintln!(…)"
-			],
-			[
 				"rea",
 				"read_line_vec"
 			],
@@ -114,10 +138,6 @@
 			[
 				"re",
 				"return_"
-			],
-			[
-				"pri",
-				"println\tprintln!(…)"
 			],
 			[
 				"fr",
@@ -146,10 +166,6 @@
 			[
 				"lo",
 				"longest"
-			],
-			[
-				"tot",
-				"tot_num"
 			],
 			[
 				"b",
@@ -196,10 +212,6 @@
 				"struct-unit\tstruct …;"
 			],
 			[
-				"p",
-				"println\tprintln!(…)"
-			],
-			[
 				"prin",
 				"println\tprintln!(…)"
 			],
@@ -230,10 +242,6 @@
 			[
 				"gr",
 				"greatest\tstatement"
-			],
-			[
-				"try",
-				"try\tTry/Except"
 			],
 			[
 				"res",
@@ -506,14 +514,6 @@
 			[
 				"d",
 				"def\t#ifndef … #define … #endif"
-			],
-			[
-				"inpu",
-				"inputCoorY"
-			],
-			[
-				"number",
-				"numberStateTemp\tint numberStateTemp"
 			]
 		]
 	},
@@ -675,12 +675,50 @@
 	"expanded_folders":
 	[
 		"/home/andraantariksa/Projects/code-exercise",
-		"/home/andraantariksa/Projects/code-exercise/toki",
-		"/home/andraantariksa/Projects/code-exercise/toki/Latihan Implementasi Algoritma",
-		"/home/andraantariksa/Projects/code-exercise/toki/Latihan Implementasi Algoritma/Sorting"
+		"/home/andraantariksa/Projects/code-exercise/hackerearth"
 	],
 	"file_history":
 	[
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/mystery-20.cpp",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/little-shino-and-prime-difference-38c91b0d.cpp",
+		"/home/andraantariksa/Desktop/1.cpp",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/prime-number-8.cpp",
+		"/home/andraantariksa/Downloads/122b096cad9d11e7.txt.clean.txt",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/monk-and-welcome-problem.py",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/monk-and-welcome-problem.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_8_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_5_C.cpp",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_3_A.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_3_C.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_1_D.rs",
+		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0150.rs",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/sort-it-out.py",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/maximum-sum-4-f8d12458.py",
+		"/home/andraantariksa/Downloads/5bb3fb3072-in61.txt.clean.txt",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/simple-search-4.py",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/mystery-30.py",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/cipher-1.cpp",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/question-2-38-cf73c1b4.py",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/question-2-38-cf73c1b4.cpp.undone",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/modify-the-string.py",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/find-product.py",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/palindrome-check-2.py",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/char-sum-2d3a6ab5.cpp",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/hello-32.py",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/two-strings-4.py",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/count-divisors.py",
+		"/home/andraantariksa/Projects/code-exercise/hackerearth/find-factorial.py",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/ENCRYPT.cpp",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/JOLLYREC17QUALP.py",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/BNPCHS2009B.py",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/IDEAFUSE18QF.py",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/JOLLYREC17QUALT.py",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/IDEAFUSE18QF.c.undone",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/JOLLYREC17QUALQ.py",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/JOLLYREC17QUALA.py",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/IDEAFUSE18QB.py",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/JC1A.py",
+		"/home/andraantariksa/Projects/code-exercise/pandaoj/REVERSAL.c",
 		"/home/andraantariksa/Projects/code-exercise/toki/Latihan Implementasi Algoritma/Sorting/C.cpp",
 		"/home/andraantariksa/Projects/code-exercise/toki/Latihan Implementasi Algoritma/Sorting/C.c",
 		"/home/andraantariksa/Projects/code-exercise/leetcode/peak-index-in-a-mountain-array.rs",
@@ -768,47 +806,7 @@
 		"/home/andraantariksa/Projects/code-exercise/codewars/kata/thinkful-number-drills-blue-and-red-marbles.rs",
 		"/home/andraantariksa/Projects/code-exercise/codewars/kata/whats-up-next.rs",
 		"/home/andraantariksa/Projects/code-exercise/codewars/kata/even-numbers-in-an-array.rs.undone",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/remove-duplicate-words.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/complementary-dna.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/get-the-middle-character.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/last.rs",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1189.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1182.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1178.cpp",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/2808.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/dont-give-me-five.rs",
-		"/home/andraantariksa/Projects/code-exercise/urionlinejudge/1172.cpp",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/sort-numbers.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/highest-and-lowest.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/number-of-people-in-the-bus.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/is-it-negative-zero-0.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/two-to-one.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/string-ends-with.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/dna-to-rna-conversion.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/how-many-lightsabers-do-you-own.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/century-from-year.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/get-nth-even-number.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/sort-and-star.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/alternating-case-<-equals->-alternating-case.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/convert-a-string-to-a-number.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/a-rule-of-divisibility-by-7.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/abbreviate-a-two-word-name.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/count-the-digit.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/even-or-odd.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/multiply.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/opposite-number.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/remove-string-spaces.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/reverse-word.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/shortest-word.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/the-feast-of-many-beasts.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_8_A.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_10_B.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_10_A.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP1_8_D.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0256.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/0020.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_3_D.rs",
-		"/home/andraantariksa/Projects/code-exercise/aizuonlinejudge/ITP2_3_A.rs"
+		"/home/andraantariksa/Projects/code-exercise/codewars/kata/remove-duplicate-words.rs"
 	],
 	"find":
 	{
@@ -826,6 +824,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"case '(.)':\\n",
+			"name",
+			"prime_",
+			"prime",
 			"unsigned int",
 			"u8",
 			"\\n",
@@ -936,9 +938,17 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"case '$1':\\n\\t\\tres = a$1b\\n\\t\\tbreak;",
+			"case '$1':\\n\\t\\t\\tres = a$1b\\n\\t\\t\\tbreak;",
+			"case '$1':\\n\\t\\tres = a$1b\\n\\t\\tbreak;",
+			"case '$1':\\n\\t\\t\\tres = a$1b\\n\\t\\tbreak;",
+			"case '$1':\\n\\t\\tres = a$1b\\n\\t\\tbreak;",
+			"r_",
+			"prime",
+			"prime_",
 			"unsigned long int",
 			"u16",
 			"",
@@ -1086,7 +1096,7 @@
 	},
 	"output.exec":
 	{
-		"height": 309.0
+		"height": 271.0
 	},
 	"output.find_results":
 	{
