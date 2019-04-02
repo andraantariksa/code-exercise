@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 #include <math.h>
 
 unsigned short inpTot, i, divisor, agakPrima;
@@ -15,7 +14,7 @@ int main(){
         }
         agakPrima = 1;
         i = 2;
-        divisor = 2; 
+        divisor = 2;
         if(inp%2 == 0){
             divisor += 1;
         }

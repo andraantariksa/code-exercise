@@ -3,17 +3,19 @@ This repository contain all of my answer on various code contest or exerice plat
 * toki/ - Tim Olimpiade Komputer Indonesia  - https://training.ia-toki.org/ or https://tlx.toki.org/
 * codeforces/ - Codeforces - https://codeforces.com/
 * urionlinejudge/ - URI Online Judge - https://www.urionlinejudge.com.br/
-* checkio/py/ - py.CheckiO - https://py.checkio.org/
+* checkio/ - CheckiO - https://checkio.org/
 * codechef/ - CodeChef - https://www.codechef.com/
 * projecteuler/ - Project Euler - https://projecteuler.net/
 * kattis/ - Kattis - https://open.kattis.com/
 * pandaoj/ - Panda Online Judge - https://pandaoj.com
 * spoj/ - Sphere Online Judge (SPOJ) - https://spoj.com
 * leetcode/ - LeetCode - https://leetcode.com/
-* uvaonlinejudge/ - Sphere Online Judge (SPOJ) - https://uva.onlinejudge.org
+* uvaonlinejudge/ - UVa Online Judge - https://uva.onlinejudge.org
 * hackerrank/ - HackerRank - https://hackerrank.com
 * aizuonlinejudge/ - Aizu Online Judge - http://judge.u-aizu.ac.jp
 * codewars/ - Codewars - https://www.codewars.com
+* atcoder/ - AtCoder - https://atcoder.jp/
+* rosalind/ - ROSALIND - http://rosalind.info/
 
 ---
 

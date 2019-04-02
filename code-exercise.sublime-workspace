@@ -674,11 +674,12 @@
 	},
 	"expanded_folders":
 	[
-		"/home/andraantariksa/Projects/code-exercise",
-		"/home/andraantariksa/Projects/code-exercise/hackerearth"
+		"/home/andraantariksa/Projects/code-exercise"
 	],
 	"file_history":
 	[
+		"/home/andraantariksa/Projects/Kuliah/Main.java",
+		"/home/andraantariksa/Projects/Kuliah/main.java",
 		"/home/andraantariksa/Projects/code-exercise/hackerearth/mystery-20.cpp",
 		"/home/andraantariksa/Projects/code-exercise/hackerearth/little-shino-and-prime-difference-38c91b0d.cpp",
 		"/home/andraantariksa/Desktop/1.cpp",
@@ -804,9 +805,7 @@
 		"/home/andraantariksa/Projects/code-exercise/codewars/kata/catalog.rs",
 		"/home/andraantariksa/Projects/code-exercise/codewars/kata/salesmans-travel.rs",
 		"/home/andraantariksa/Projects/code-exercise/codewars/kata/thinkful-number-drills-blue-and-red-marbles.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/whats-up-next.rs",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/even-numbers-in-an-array.rs.undone",
-		"/home/andraantariksa/Projects/code-exercise/codewars/kata/remove-duplicate-words.rs"
+		"/home/andraantariksa/Projects/code-exercise/codewars/kata/whats-up-next.rs"
 	],
 	"find":
 	{
@@ -824,6 +823,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"protected",
+			"public void print()",
+			"print()",
+			"print",
 			"case '(.)':\\n",
 			"name",
 			"prime_",
@@ -938,7 +941,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 			"case '$1':\\n\\t\\tres = a$1b\\n\\t\\tbreak;",
