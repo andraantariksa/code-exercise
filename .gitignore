@@ -3,3 +3,6 @@ a.out
 .vscode
 *.sublime*
 *.class
+build/
+target/
+.stack_work
