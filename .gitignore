@@ -1,8 +1,10 @@
 a.out
 *.undone
 .vscode
-*.sublime*
+*.sublime-project
+*.sublime-workspace
 *.class
 build/
 target/
-.stack_work
+.stack-work/
+*.undone/

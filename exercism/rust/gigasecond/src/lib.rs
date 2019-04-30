@@ -1,6 +1,7 @@
-use chrono::{DateTime, Utc, offset::TimeZone};
+use chrono::{DateTime, Utc, Duration};
 
-// Returns a Utc DateTime one billion seconds after start.
+const GIGA_SIZE: i64 = 1_000_000_000;
+
 pub fn after(start: DateTime<Utc>) -> DateTime<Utc> {
-    Utc.timestamp(start.timestamp() + 1000000000, 0)
+    start + Duration::seconds(GIGA_SIZE)
 }

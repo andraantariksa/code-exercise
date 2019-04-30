@@ -7,17 +7,19 @@
 
 namespace dna{
     class counter{
-        public:
-            std::string dna;
+        private:
             std::map<char, int> map;
+            bool valid_nucleotide(const char c) const{
+                return c == 'A' || c == 'T' || c == 'C' || c == 'G';
+            }
+        public:
             counter(const std::string s){
-                dna = s;
                 map['A'] = 0;
                 map['T'] = 0;
                 map['C'] = 0;
                 map['G'] = 0;
-                for (auto i = dna.begin(); i != dna.end(); i++) {
-                    if(*i == 'A' || *i == 'T' || *i == 'C' || *i == 'G'){
+                for (auto i = s.begin(); i != s.end(); i++) {
+                    if(valid_nucleotide(*i)){
                         map[*i]++;
                     }else{
                         throw std::invalid_argument("Invalid nucleotide symbol.");
@@ -25,13 +27,14 @@ namespace dna{
                 }
             }
             int count(const char c) const{
-                if(c != 'A' && c != 'T' && c != 'C' && c != 'G'){
+                if(!valid_nucleotide(c)){
                     throw std::invalid_argument("Invalid nucleotide symbol.");
+                }else{
+                    return map.at(c);
                 }
-                return std::count_if(dna.begin(), dna.end(), [&c](char c_){ return (c_ == c)?true:false;  });
             }
 
-            const std::map<char, int> nucleotide_counts() const{
+            std::map<char, int> nucleotide_counts() const{
                 return map;
             }
     };
