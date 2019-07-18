@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef short i16;
+typedef unsigned short u16;
+typedef int i32;
+typedef unsigned int u32;
+typedef long int i64;
+typedef unsigned long int u64;
+
+int main()
+{
+    i32 a, e = 0;
+    cin >> a;
+    for (int b = 0; b <= a; b++)
+    {
+        for (int c = 0; c <= a; c++)
+        {
+            for (int d = 0; d <= a; d++)
+            {
+                //cout << b << " " << c << " " << d << "\n";
+                if (b + c + d == a)
+                {
+                    e += 1;
+                }
+            }
+        }
+    }
+
+    cout << e << '\n';
+}
