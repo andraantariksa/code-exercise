@@ -122,43 +122,17 @@ class Persegi {
     }
 };
 
-// void compare(vector<Persegi> *p_v, int a, int b)
-// {
-//   if (p_v->at(a).muat(p_v->at(b)) || p_v->at(b).muat(p_v->at(a)))
-//   {
-//     ::noteq++;
-//   }
-
-//   if (abs(abs(a) - abs(b)) != 1)
-//   {
-//     compare(p_v, a + 1, b);
-//     compare(p_v, a, b - 1);
-//   }
-// }
-
-struct Compared
-{
-    int a;
-    int b;
-};
-
-bool operator==(const Compared& a, const Compared& b)
-{
-    return a.a == b.a && a.b == b.b;
-}
-
 int main() {
   vector<Persegi> p_v;
-  vector<Compared> cmp;
   int x1, y1, x2, y2;
   int N;
   int noteq = 0;
 
-  cin >> N;
+  scanf("%d", &N);
 
   FOR(i, 0, N)
   {
-    cin >> x1 >> y1 >> x2 >> y2;
+    scanf("%d %d %d %d", x1, y1, x2, y2);
 
     Persegi p_temp;
     p_temp.x1 = 0;
@@ -169,40 +143,18 @@ int main() {
     p_v.pb(p_temp);
   }
   
-  FOR(i, 0, N)
+  FOR(i, 0, N - 1)
   {
-      FOR(j, 0, N)
+      FOR(j, i + 1, N)
       {
-          if (i != j)
+          if (p_v[i].muat(p_v[j]))
           {
-              Compared cmp_t;
-              if (i > j)
-              {
-                  cmp_t.a = j;
-                  cmp_t.b = i;
-              }
-              else
-              {
-                  cmp_t.a = i;
-                  cmp_t.b = j;
-              }
-
-              if (find(cmp.begin(), cmp.end(), cmp_t) != cmp.end())
-              {
-                  continue;
-              }
-
-              cmp.pb(cmp_t);
-              
-              if (!p_v[i].muat(p_v[j]))
-              {
-                  noteq += 1;
-              }
+              noteq++;
           }
       }
   }
 
-  cout << noteq << '\n';
+  printf("%d\n", noteq);
 
   return 0;
 }

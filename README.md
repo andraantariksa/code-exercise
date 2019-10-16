@@ -1,22 +1,35 @@
-This repository contain all of my answer on various code contest or exerice platform such as
+This repository contain all of my answer on various code contest or exerice platform
 
-* toki/ - Tim Olimpiade Komputer Indonesia  - https://training.ia-toki.org/ or https://tlx.toki.org/
-* codeforces/ - Codeforces - https://codeforces.com/
-* urionlinejudge/ - URI Online Judge - https://www.urionlinejudge.com.br/
-* checkio/ - CheckiO - https://checkio.org/
-* codechef/ - CodeChef - https://www.codechef.com/
-* projecteuler/ - Project Euler - https://projecteuler.net/
-* kattis/ - Kattis - https://open.kattis.com/
-* pandaoj/ - Panda Online Judge - https://pandaoj.com
-* spoj/ - Sphere Online Judge (SPOJ) - https://spoj.com
-* leetcode/ - LeetCode - https://leetcode.com/
-* uvaonlinejudge/ - UVa Online Judge - https://uva.onlinejudge.org
-* hackerrank/ - HackerRank - https://hackerrank.com
-* aizuonlinejudge/ - Aizu Online Judge - http://judge.u-aizu.ac.jp
-* codewars/ - Codewars - https://www.codewars.com
-* atcoder/ - AtCoder - https://atcoder.jp/
-* rosalind/ - ROSALIND - http://rosalind.info/
-* dmoj/ - DMOJ: Modern Online Judge - https://dmoj.ca
+## Open Problems
+
+| Directory                          | Judge/Platform                                                   |
+|-------------------------------------------------------------------------------------------------------|
+| [toki](toki)                       | [Tim Olimpiade Komputer Indonesia](https://training.ia-toki.org) |
+| [codeforces](codeforces)           | [Codeforces](https://codeforces.com)                             |
+| [urionlinejudge](urionlinejudge)   | [URI Online Judge](https://www.urionlinejudge.com.br)            |
+| [checkio](checkio)                 | [Checkio](https://checkio.org)                                   |
+| [codechef](codechef)               | [CodeChef](https://www.codechef.com)                             |
+| [projecteuler](projecteuler)       | [Project Euler](https://projecteuler.net)                        |
+| [kattis](kattis)                   | [Kattis](https://open.kattis.com)                                |
+| [pandaoj](pandaoj)                 | [Panda Online Judge](https://pandaoj.com)                        |
+| [spoj](spoj)                       | [Sphere Online Judge (SPOJ)](https://spoj.com)                   |
+| [leetcode](leetcode)               | [LeetCode](https://leetcode.com)                                 |
+| [uvaonlinejudge](uvaonlinejudge)   | [UVa Online Judge](https://uva.onlinejudge.org)                  |
+| [hackerrank](hackerrank)           | [HackerRank](https://hackerrank.com)                             |
+| [aizuonlinejudge](aizuonlinejudge) | [Aizu Online Judge](http://judge.u-aizu.ac.jp)                   |
+| [codewars](codewars)               | [Codewars](https://www.codewars.com)                             |
+| [atcoder](atcoder)                 | [AtCoder](https://atcoder.jp)                                    |
+| [rosalind](rosalind)               | [ROSALIND](http://rosalind.info)                                 |
+| [dmoj](dmoj)                       | [DMOJ: Modern Online Judge](https://dmoj.ca)                     |
+| [coderbyte](coderbyte)             | [Coderbyte](https://coderbyte.com)                               |
+| [timus](timus)                     | [Timus Online Judge](http://acm.timus.ru)                        |
+
+---
+
+## Contest Based
+
+[GEMASTIK](contest/gemastik)
+[COMPFEST](contest/compfest)
 
 ---
 

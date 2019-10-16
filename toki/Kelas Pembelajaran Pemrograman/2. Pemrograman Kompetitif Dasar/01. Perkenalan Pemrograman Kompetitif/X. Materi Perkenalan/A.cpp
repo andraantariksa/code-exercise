@@ -1,6 +1,7 @@
 //https://training.ia-toki.org/training/curriculums/1/courses/11/chapters/50/problems/222/
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 unsigned int t, n, m, i, j, pass;
 char check[6];
@@ -11,10 +12,12 @@ void swap_i(unsigned int *x, unsigned int *y){
     *y = temp;
 }
 
-void swap_s(char **x, char **y){
-    char *temp = *x;
-    *x = *y;
-    *y = temp;
+void swap_s(char *x, char *y){
+    char *temp = (char*) malloc((strlen(x) + 1) * sizeof(char)); 
+	strcpy(temp, x); 
+	strcpy(x, y); 
+	strcpy(y, temp); 
+	free(temp);
 } 
 
 int main() {
@@ -28,16 +31,19 @@ int main() {
 			scanf("%s %u %u %u", id[i], &s[0][i], &s[1][i], &s[2][i]);
 		}
 		for(i = 0; i < 3; i++){
-			total[i] = (s[2][i]*1000000)+(s[1][i]*1000)+(s[0][i]*1);
+			total[i] = (s[2][i] * 10000000) + (s[1][i] * 1000) + (s[0][i]);
 		}
+
+		// BubbleSort O(n^2)
 		for(i = 0; i < n-1; i++){
 	        for(j = 0; j < n-i-1; j++){  
 	           if(total[j] < total[j+1]){
 	              swap_i(&total[j], &total[j+1]);
-	              swap_s(&id[j], &id[j+1]);
+	              swap_s(id[j], id[j+1]);
 	           }
 	        }
 		}
+
 		pass = 0;
 		for(i = 0; i < m; i++){
 			//printf("%s %s\n", check, id[i]);
