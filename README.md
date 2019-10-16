@@ -1,3 +1,5 @@
+# Competitive Programming Answer
+
 This repository contain all of my answer on various code contest or exerice platform
 
 ## Open Problems
@@ -34,3 +36,9 @@ This repository contain all of my answer on various code contest or exerice plat
 ---
 
 Feel free to ask me by adding new issue.
+
+---
+
+## LICENSE
+
+[MIT Licensed](LICENSE), but only applied for my answer and not including the problems that I put on this repository.
