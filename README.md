@@ -3,7 +3,7 @@ This repository contain all of my answer on various code contest or exerice plat
 ## Open Problems
 
 | Directory                          | Judge/Platform                                                   |
-|-------------------------------------------------------------------------------------------------------|
+|------------------------------------|------------------------------------------------------------------|
 | [toki](toki)                       | [Tim Olimpiade Komputer Indonesia](https://training.ia-toki.org) |
 | [codeforces](codeforces)           | [Codeforces](https://codeforces.com)                             |
 | [urionlinejudge](urionlinejudge)   | [URI Online Judge](https://www.urionlinejudge.com.br)            |
@@ -28,8 +28,8 @@ This repository contain all of my answer on various code contest or exerice plat
 
 ## Contest Based
 
-[GEMASTIK](contest/gemastik)
-[COMPFEST](contest/compfest)
+[GEMASTIK 12](contest/gemastik/12)
+[COMPFEST 11](contest/compfest/11)
 
 ---
 
