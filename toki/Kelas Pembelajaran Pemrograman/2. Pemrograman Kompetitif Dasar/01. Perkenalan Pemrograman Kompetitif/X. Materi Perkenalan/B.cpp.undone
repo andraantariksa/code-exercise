@@ -24,11 +24,10 @@ int main(){
 		}
 	}
 	bool full, again = true;
-	int lowest_full_pos;
 
 	while(again){
 
-		// Find the lowest full line with 1
+		int lowest_full_pos;
 		for(int i = y_-1; i >= 0; i--){
 			full = true;
 			for(int j = 0; j < x_; j++){
@@ -43,8 +42,6 @@ int main(){
 			}
 		}
 
-		// again is used to iterate the while loop again later
-		// Replace full line with 0
 		again = false;
 		for(int i = lowest_full_pos; i >= 0; i--){
 			full = true;
@@ -66,7 +63,6 @@ int main(){
 			break;
 		}
 
-		// Runtuhkan!!!
 		int total_this_row, lowest_0;
 		for(int x = 0; x < x_; x++){
 			total_this_row = 0;
@@ -76,7 +72,6 @@ int main(){
 					total_this_row++;
 				}
 			}
-			// Find the lowest position for 0
 			for(int y = 0; y < y_; y++){
 				if(block[y][x] == '0'){
 					lowest_0 = y;
